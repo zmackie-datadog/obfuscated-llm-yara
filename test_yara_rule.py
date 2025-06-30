@@ -115,6 +115,7 @@ def main():
         ("test_actual_leetspeak_outcome.txt", True, "Actual leetspeak text"),
         ("test_actual_hex_outcome.txt", True, "Actual hex encoded text"),
         ("test_mixed_obfuscation_outcome.txt", True, "Mixed obfuscation outcomes"),
+        ("moar_zalgo.txt", True, "More zalgo text"),
         
         # Should NOT trigger (negative tests)
         ("test_no_obfuscation.txt", False, "Plain text with no obfuscation"),
