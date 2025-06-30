@@ -47,3 +47,9 @@ if __name__ == "__main__":
     print("Upside down:", to_upside_down(test_text))
     print("Zalgo:", to_zalgo(test_text))
     print("Invisible:", encode_invisible(test_text))
+    
+    # Example outputs that should trigger the rule
+    example_upside_down = "ɥǝllo ʍoɹld"
+    example_zalgo = "H̸e̊l̥l̯o̊ ̸W̊o̥r̯l̊d̸"
+    example_braille = "⠓⠑⠇⠇⠕ ⠺⠕⠗⠇⠙"
+    example_base64 = "SGVsbG8gV29ybGQ="
