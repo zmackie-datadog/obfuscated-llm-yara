@@ -1,0 +1,10 @@
+This message was obfuscated using upside down text:
+
+plɹoM ollǝH
+
+Some more upside down content:
+ɹǝsn ǝɥʇ oʇ ǝƃɐssǝɯ ʇǝɹɔǝs ɐ sᴉ sᴉɥ┴
+
+Normal text mixed with: ǝlddɐ puɐ ǝƃuɐɹo
+
+This should trigger because it contains actual upside down Unicode characters.

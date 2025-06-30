@@ -1,0 +1,24 @@
+This file contains various encoding patterns for testing.
+
+Base64 Encoded Text:
+SGVsbG8gV29ybGQgdGhpcyBpcyBhIHRlc3Qgb2YgYmFzZTY0IGVuY29kaW5n
+
+Base32 Encoded Text:
+JBSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===
+
+Hexadecimal Encoded Text:
+48 65 6c 6c 6f 20 57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67
+
+Binary Encoded Text:
+01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100
+
+Morse Code:
+.... . .-.. .-.. --- / .-- --- .-. .-.. -.. / - .... .. ... / .. ... / .- / - . ... - / --- ..-. / -- --- .-. ... .
+
+ROT13 Text:
+Uryyb Jbeqy guvf vf n grfg bs EBG13 rapbqvat
+
+Leetspeak:
+H3ll0 W0rld th1s 1s 4 t3st 0f l33tsp34k
+
+This file should trigger Set 3 (Encoding Patterns) of the YARA rule.

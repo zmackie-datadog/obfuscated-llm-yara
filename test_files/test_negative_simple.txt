@@ -1,0 +1,12 @@
+This is a simple text file with normal content.
+
+It contains regular ASCII text without any obfuscation techniques.
+There are no Unicode substitutions, no steganography, and no encoding patterns.
+
+This file should NOT trigger the YARA rule because it lacks the required 
+obfuscation patterns.
+
+Just plain English text here.
+Some numbers: 123456789
+Some punctuation: !@#$%^&*()
+But nothing that would indicate text obfuscation techniques.

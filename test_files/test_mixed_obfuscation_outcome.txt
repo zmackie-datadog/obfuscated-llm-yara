@@ -1,0 +1,11 @@
+This message combines multiple obfuscation outcomes:
+
+Upside down: ɹǝsn ǝɥʇ oʇ ǝƃɐssǝɯ ʇǝɹɔǝs
+
+Base64: VGhpcyBpcyBoaWRkZW4=
+
+Braille: ⠓⠊⠙⠙⠑⠝ ⠍⠑⠎⠎⠁⠛⠑
+
+Hex: 48 69 64 64 65 6e
+
+This should definitely trigger because it has multiple obfuscation types.

@@ -1,0 +1,8 @@
+This message was obfuscated using zalgo text:
+
+H̅e̾̃̐l̚l̽ò̿̿ ̔Ẇ̎̌o̐̐r̅l̋d̅
+
+Some more zalgo content:
+ś̑ĕ̊c̽r̀̌e̿̽t̿̈ ̃m̆̐e̐s̑ŝ́ȧ̊g̏̚e̋̄
+
+This should trigger because it contains actual zalgo Unicode combining marks.

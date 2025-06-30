@@ -1,0 +1,10 @@
+This is a plain text file with no obfuscation.
+
+It contains regular English text with normal punctuation and formatting.
+There are no Unicode substitutions, no encoded content, and no steganography.
+
+Just normal words like: hello, world, message, secret, hidden.
+Some numbers: 123456789
+Some symbols: !@#$%^&*()
+
+This should NOT trigger the YARA rule because it contains no actual obfuscated text outcomes.

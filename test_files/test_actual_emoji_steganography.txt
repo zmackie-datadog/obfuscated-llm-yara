@@ -1,0 +1,9 @@
+This message contains emoji steganography outcomes:
+
+🐍︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎
+
+🐉︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎
+
+Another emoji with variation selectors: 🦎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎
+
+This should trigger because it contains actual emoji variation selector steganography.

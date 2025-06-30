@@ -1,0 +1,13 @@
+This file has minimal obfuscation that should not trigger the rule.
+
+Just a few unicode characters: café naïve résumé
+
+Some Base64 but not enough: SGVsbG8=
+
+A single upside down character: ɐ
+
+This should NOT trigger because it doesn't meet the threshold requirements:
+- Not enough Unicode obfuscation types (need 2+)
+- Not enough encoding patterns (need 2+) 
+- No steganography
+- No obfuscation functions

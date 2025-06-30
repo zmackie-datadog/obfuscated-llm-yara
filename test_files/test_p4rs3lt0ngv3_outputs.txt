@@ -1,0 +1,8 @@
+Testing actual outputs from P4RS3LT0NGV3 transforms:
+
+Original: Hello World Secret Message
+Upside down: ǝƃɐssǝW ʇǝɹɔǝS plɹoM ollǝH
+Runes: ᚺᛖᛚᛚᛟ ᛩᛟᚱᛚᛞ ᛋᛖᛲᚱᛖᛏ ᛗᛖᛋᛋᚨᚷᛖ
+Braille: ⠠⠓⠑⠇⠇⠕ ⠠⠺⠕⠗⠇⠙ ⠠⠎⠑⠉⠗⠑⠞ ⠠⠍⠑⠎⠎⠁⠛⠑
+Small caps: Hᴇʟʟᴏ Wᴏʀʟᴅ Sᴇᴄʀᴇᴛ Mᴇssᴀɢᴇ
+Bubble: Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ Ⓢⓔⓒⓡⓔⓣ Ⓜⓔⓢⓢⓐⓖⓔ

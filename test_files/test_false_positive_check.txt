@@ -1,0 +1,16 @@
+This file tests for false positives - things that look like obfuscation but aren't:
+
+Some accented characters: café naïve résumé façade
+
+A few dots and dashes: - .. - but not Morse code
+
+Some numbers and letters: A1B2C3D4 but not real encoding
+
+Short hex-like strings: AB CD EF but too short to be real encoding
+
+Normal punctuation: !@#$%^&*()_+-=[]{}|;':",./<>?
+
+Foreign language text: Здравствуй мир (Russian)
+Another language: مرحبا بالعالم (Arabic)
+
+This should NOT trigger because these aren't actual obfuscation outcomes.

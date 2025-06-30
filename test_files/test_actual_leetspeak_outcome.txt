@@ -1,0 +1,10 @@
+This message contains actual leetspeak outcomes:
+
+H3ll0 W0rld
+
+M0r3 l33t sp34k h3r3:
+Th1s 1s 4 s3cr3t m3ss4g3 1n l33t
+
+Another example: H4ck3r sp34k w1th numb3rs
+
+This should trigger because it contains actual leetspeak text.

@@ -1,0 +1,21 @@
+This file combines multiple obfuscation techniques to test comprehensive detection.
+
+Unicode Obfuscation:
+ɥǝllo - upside down
+ᚺᛖᛚᛚᛟ - runes  
+⠓⠑⠇⠇⠕ - braille
+ʜᴇʟʟᴏ - small caps
+ⓗⓔⓛⓛⓞ - bubble
+
+Steganography:
+🐍︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎
+
+Encoding:
+SGVsbG8gV29ybGQ= (base64)
+48 65 6c 6c 6f (hex)
+01001000 01100101 01101100 (binary)
+
+Zalgo corruption:
+C̴̱̈ō̶̰m̷̭̍ḇ̸̄ḭ̵̒ṋ̶̈ḛ̷̈́ḏ̸̍ ̵̰̄ṱ̶̒ë̸̱́c̷̰̍ḧ̶̭n̸̰̄i̵̱̒q̶̰̍ṷ̸̄ë̷̱s̸̰̒
+
+This file should definitely trigger the YARA rule with multiple detection paths.

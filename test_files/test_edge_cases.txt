@@ -1,0 +1,10 @@
+Edge case testing with truly minimal content:
+
+Single character obfuscation: ɐ (one upside down char)
+Two characters: ᚺᛖ (two runes)
+Mixed with normal: Hello ⠓⠑ World (just two braille chars)
+Partial base64: SGVs (too short)
+Almost morse: ... . but not quite
+Small leetspeak: h3y (minimal)
+
+This should NOT trigger because these are truly minimal amounts.

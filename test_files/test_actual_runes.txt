@@ -1,0 +1,10 @@
+This message was obfuscated using Elder Futhark runes:
+
+ᚺᛖᛚᛚᛟ ᚹᛟᚱᛚᛞ
+
+Some more runic content:
+ᛋᛖᚲᚱᛖᛏ ᛗᛖᛋᛋᚨᚷᛖ ᛁᚾ ᚱᚢᚾᛖᛋ
+
+Mixed content: The word ᚺᛁᛞᛞᛖᚾ is in runes.
+
+This should trigger because it contains actual Elder Futhark Unicode characters.

@@ -1,0 +1,10 @@
+This message contains actual Morse code outcomes:
+
+.... . .-.. .-.. --- / .-- --- .-. .-.. -..
+
+Another morse message:
+... . -.-. .-. . - / -- . ... ... .- --. .
+
+And a third one: .... .. -.. -.. . -.
+
+This should trigger because it contains actual Morse code patterns.

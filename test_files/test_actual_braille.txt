@@ -1,0 +1,10 @@
+This message was obfuscated using Braille:
+
+⠓⠑⠇⠇⠕ ⠺⠕⠗⠇⠙
+
+Some more braille content:
+⠎⠑⠉⠗⠑⠞ ⠍⠑⠎⠎⠁⠛⠑ ⠊⠝ ⠃⠗⠁⠊⠇⠇⠑
+
+Mixed content: The word ⠓⠊⠙⠙⠑⠝ is in braille.
+
+This should trigger because it contains actual Braille Unicode characters.

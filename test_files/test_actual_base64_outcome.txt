@@ -1,0 +1,10 @@
+This message contains the outcome of Base64 encoding:
+
+SGVsbG8gV29ybGQ=
+
+Some more base64 encoded content:
+VGhpcyBpcyBhIHNlY3JldCBtZXNzYWdl
+
+And another encoded string: U29tZXRoaW5nIGhpZGRlbiBpbiBlbmNvZGluZw==
+
+This should trigger because it contains actual Base64 encoded strings.

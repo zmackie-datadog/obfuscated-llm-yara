@@ -1,0 +1,10 @@
+This message contains actual hex encoded outcomes:
+
+48 65 6c 6c 6f 20 57 6f 72 6c 64
+
+Another hex string:
+53 65 63 72 65 74 20 6d 65 73 73 61 67 65
+
+And more: 48 69 64 64 65 6e 20 74 65 78 74
+
+This should trigger because it contains actual hexadecimal encoded text.
