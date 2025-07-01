@@ -117,10 +117,18 @@ def main():
         ("test_mixed_obfuscation_outcome.txt", True, "Mixed obfuscation outcomes"),
         ("moar_zalgo.txt", True, "More zalgo text"),
         
+        # New comprehensive test files
+        ("test_special_techniques.txt", True, "Special techniques: Elder Futhark, Medieval, Cursive, etc."),
+        ("test_unicode_comprehensive.txt", True, "Unicode: Invisible, Upside Down, Small Caps, Braille, etc."),
+        ("test_visual_formatting.txt", True, "Visual: Strikethrough, Underline, Rainbow, Leetspeak, NATO, Pig Latin"),
+        ("test_ciphers_comprehensive.txt", True, "Ciphers: Morse, ROT13, ROT47, Binary, Hex, Base64, etc."),
+        ("test_zalgo_comprehensive.txt", True, "Comprehensive zalgo corruption text"),
+        
         # Should NOT trigger (negative tests)
         ("test_no_obfuscation.txt", False, "Plain text with no obfuscation"),
         ("test_false_positive_check.txt", False, "False positive check - similar but not obfuscated"),
         ("test_edge_cases.txt", False, "Edge cases - minimal content below thresholds"),
+        ("test_negative_comprehensive.txt", False, "Comprehensive negative test - plain text only"),
     ]
     
     # Run both test suites
