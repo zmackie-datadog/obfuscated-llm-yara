@@ -66,14 +66,15 @@ The rule includes file size constraints (100 bytes to 50MB) to avoid false posit
 The test suite includes:
 
 **Positive Cases** (should trigger):
-- Actual upside-down Unicode text
-- Zalgo corrupted text
-- Elder Futhark runic text
-- Braille patterns
-- Base64/hex encoded content
-- Emoji steganography
-- Morse code patterns
-- Leetspeak text
+- Actual upside-down Unicode text: ɥǝllo ʍoɹlp ʇɥᴉs ᴉs ɐ ʇǝsʇ oɟ ndsᴉpǝ poʍu ʇǝxʇ
+- Zalgo corrupted text: Ȟ̶͈̱̼e̶̥̱̪̐̑ ̸̗̰̥̈́͠c̶̻͚̰̅͠a̸̖͋̀m̴̞̯̖̽̚é̷̻̯̮̕ ̶̼̫̥̐f̷̛̖̓r̶̺͎̀̽o̵͈̞̼͝m̸͓̜͠ ̷̢̪̤͗́b̴̥̈́̕ę̴͈̦͐t̷͖̤̪͗͗w̵̙͐̕ë̶͇̳̖́̎é̴̩̥͜͠n̷̨̓.̶̥̱͂͝ ̶̜̅F̷̝̥̟̈́r̸̬̱̙̈́ö̴͙̯́m̴̝̽ ̵̻̒t̶̩̀̿h̸̰̞͚̿̓e̷̢͙͍̿ ̶̘̙̮͑ẗ̷̜̲̞́͒è̶̳̠̘x̵̤͍̿͋t̸̢͉̪͂ ̷̼̠̳̏̎b̷̖̏è̸̢̙̖t̸̿
+- Elder Futhark runic text: ᛋᛖᚲᚱᛖᛏ ᛗᛖᛋᛋᚨᚷᛖ ᛁᚾ ᚱᚢᚾᛖᛋ
+- Braille patterns: ⠓⠑⠇⠇⠕ ⠺⠕⠗⠇⠙
+- Base64/hex encoded content: SGVsbG8gV29ybGQ=
+- Emoji steganography: 🤖
+- Morse code patterns: .- -... .-.. .-.. --- .-- --- .-. .-.. -.. -
+- Leetspeak text: 1337 5p34k
+- Other unicode obfuscations including More code, bubblespeak, Invisibility, etc.
 
 **Negative Cases** (should NOT trigger):
 - Plain text files
@@ -83,12 +84,4 @@ The test suite includes:
 ## Development
 
 Based on P4RS3LT0NGV3 obfuscation techniques, this rule is designed to catch sophisticated text obfuscation attempts while minimizing false positives on legitimate content.
-
 The rule uses hex patterns for Unicode detection to ensure reliable matching across different text encodings and platforms.
-
-## Author
-
-- **Amp** (2025-06-30)
-- Version: 1.0
-- Severity: Medium
-- Category: Text Obfuscation/Steganography
