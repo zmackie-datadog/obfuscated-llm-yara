@@ -1,0 +1,59 @@
+# Test Samples for P4RS3LT0NGV3 Obfuscation Techniques
+# Each line shows: TECHNIQUE_NAME: obfuscated_text
+
+# Encoding Techniques
+BASE64: SGVsbG8gV29ybGQ=
+BASE32: JBSWY3DPEBLW64TMMQQQ====
+BINARY: 01001000 01100101 01101100 01101100 01101111
+HEXADECIMAL: 48 65 6c 6c 6f
+ASCII85: <~9jqo^BlbD-BleB1djH@-6W\z~>
+URL_ENCODE: Hello%20World%21
+HTML_ENTITIES: &lt;script&gt;alert(&quot;test&quot;)&lt;/script&gt;
+
+# Cipher Techniques  
+CAESAR_CIPHER: Khoor Zruog
+ROT13: Uryyb Jbeyq
+ROT47: w6==@ (@C=5
+MORSE_CODE: .... . .-.. .-.. ---
+
+# Visual/Formatting Techniques
+STRIKETHROUGH: H̶e̶l̶l̶o̶ ̶W̶o̶r̶l̶d̶
+UNDERLINE: H̲e̲l̲l̲o̲ ̲W̲o̲r̲l̲d̲
+REVERSE_TEXT: dlroW olleH
+
+# Unicode Techniques
+UPSIDE_DOWN: ɥǝllo ʍoɹlp
+FULL_WIDTH: Ｈｅｌｌｏ　Ｗｏｒｌｄ
+SMALL_CAPS: ʜᴇʟʟᴏ ᴡᴏʀʟᴅ
+BUBBLE: Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ
+BRAILLE: ⠓⠑⠇⠇⠕
+GREEK_LETTERS: Ηελλο Ωορλδ
+WINGDINGS: ♒♏●●⚬
+
+# Special Techniques
+MEDIEVAL: 𝖍𝖊𝖑𝖑𝖔 𝖜𝖔𝖗𝖑𝖉
+CURSIVE: 𝓱𝓮𝓵𝓵𝓸 𝔀𝓸𝓻𝓵𝓭
+MONOSPACE: 𝚑𝚎𝚕𝚕𝚘 𝚠𝚘𝚛𝚕𝚍
+DOUBLE_STRUCK: 𝕙𝕖𝕝𝕝𝕠 𝕨𝕠𝕣𝕝𝕕
+ELDER_FUTHARK: ᚺᛖᛚᛚᛟ
+MIRROR_TEXT: dlroW olleH
+ZALGO: H̷̨̢̨̛̭̫̰̪̝̼̯̣̱̬̱̰̗̫̘̺̠̲̲̠̺̥̰̹̭̰̦̱̊̏̽̋̾͛̊̓̋̿̈́̒̏̇̊͗̃̓̍̋͗̊̔̏̓͊̈́̃̍̔̚̕̚͜͝͝͠ė̴̡̨̢̛̝͇̭̞̲̮̦̤̰̗̗̥̲̤̳̪̝̦̗̟̙̣̘̗̮̟̖̮̝̪̺̠̃̿̒̓̓̾̀͛̋̾̈́̓͌̌̑̊̓̇̑̍̊̊̇̐̊̊̿̋̃̚̚͘͜͜l̷̨̡̧̧̨̨̨̛̺̜̪̞̰̦͓̱̝̰̦̮̱̭̙̦̹̱̻̪̮̳̞͙̺̞̳̘̠̤̟̋̀̄͌̊̀̊̋̈́̾̔̂̋̿̾̿̈́̄̾̏̂͆̚̚͜͜͝l̶̢̧̡̛̛̞̣̮̮̜̪̯͇̰̯͔̦̪̪̺̰̘̘̫̪̙̱̣̙̯̫̇̐͐̇̒̃̋̌̀̀͛̑̾͂̽͌̾̄̾̋̀̆̍̍̊̔͑̑͐̀̋̍̈́̚͘͘͝ơ̵̧̮̣̩̜̰̰̭̫͓̱̪̖̼̺̠̞͈̟̫͙̤̙̠̫̳̞̯̊̊͒̊̑̽̔̉͊̈́̇́̍̇̏̒̍̄̏̅̂̿̃͌̽̈́̚̚͜͝͝
+VAPORWAVE: H e l l o   W o r l d
+PIG_LATIN: elloHay orldWay
+LEETSPEAK: H3ll0 W0rld
+NATO_PHONETIC: Hotel Echo Lima Lima Oscar
+
+# Steganography (these would contain hidden data in variation selectors/invisible chars)
+EMOJI_STEGANOGRAPHY: 🐍︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎‍
+INVISIBLE_TEXT: ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌
+
+# Mixed/Combined Techniques
+MIXED_BASE64_HEX: U0dWc2JHOGdWMjl5YkdR (base64 of hex)
+MIXED_ROT13_BASE64: VXJ5eWIgU2JleXE= (base64 of ROT13)
+MIXED_REVERSE_BINARY: 01100100 01101100 01110010 01101111 01010111 (binary of "dlroW")
+
+# Edge Cases
+EMPTY_OBFUSCATION: 
+SPECIAL_CHARS: !@#$%^&*()_+-=[]{}|;:'".,<>?/~`
+UNICODE_MIXED: Hello🌍World
+LONG_TEXT_SAMPLE: VGhpcyBpcyBhIGxvbmdlciB0ZXN0IHNhbXBsZSB0byBzZWUgaG93IHRoZSBvYmZ1c2NhdGlvbiBkZXRlY3Rpb24gd29ya3Mgd2l0aCBtb3JlIGNvbXBsZXggY29udGVudA==

@@ -1,0 +1,22 @@
+This is plain English text.
+No obfuscation techniques are used here.
+Just regular ASCII characters.
+Some numbers: 123456789
+Common punctuation: . , ! ? ; :
+Standard formatting without any special Unicode.
+
+This text should NOT trigger the YARA rule
+because it contains only normal characters
+and typical formatting patterns.
+
+Regular words and sentences.
+No special encoding schemes.
+No Unicode substitution characters.
+No steganography techniques.
+No invisible text.
+No zalgo corruption.
+No encoded content.
+
+This is intentionally boring and normal
+to serve as a negative test case
+for the obfuscation detection rule.

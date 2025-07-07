@@ -1,0 +1,54 @@
+Morse Code Test:
+.... . .-.. .-.. --- / .-- --- .-. .-.. -..
+- .... .. ... / .. ... / -- --- .-. ... . / -.-. --- -.. .
+... --- ... / -- . ... ... .- --. .
+
+Caesar Cipher Test (ROT3):
+Wklv lv d Fdhvdu flskhu whvw
+Hyhubwklqj lv vkliwhg eb wkuhh
+Defrqdelmnopqrstuvwxyzabc
+
+ROT13 Test:
+Guvf vf ebg13 rapbqrq grkg
+Nycunorg vf ebgngrq ol guvegrra
+Nopqrstuvwxyzabcdefghijklm
+
+ROT47 Test:
+%9:D :D #~%$( 6:A96C
+p== 49625E6 D36:2= 492C24E6CD
+#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+
+Binary Test:
+01001000 01100101 01101100 01101100 01101111
+01010111 01101111 01110010 01101100 01100100
+01000010 01101001 01101110 01100001 01110010 01111001
+
+Hexadecimal Test:
+48 65 6c 6c 6f 20 57 6f 72 6c 64
+54 68 69 73 20 69 73 20 68 65 78
+41 42 43 44 45 46 47 48 49 4a
+
+Base64 Test:
+SGVsbG8gV29ybGQ=
+VGhpcyBpcyBiYXNlNjQ=
+QWxwaGFiZXRpYyBlbmNvZGluZw==
+
+Base32 Test:
+JBSWY3DPEBLW64TMMQ======
+ORSXG5DJNZTQ====
+MFRGG43UEBUW4IDPMYQGE3DP
+
+ASCII85 Test:
+<~9jqo^BlbD-BleB1djH3++=~>
+<~@/;]8ATMoD@3B8?<,@;0'9~>
+<~Esc%9A1P`H1P!~>
+
+URL Encoding Test:
+Hello%20World%21
+This%20is%20URL%20encoded%20text
+%48%65%6C%6C%6F%20%57%6F%72%6C%64
+
+HTML Entities Test:
+&lt;Hello&gt; &amp; &quot;World&quot;
+&copy; &reg; &trade; &#8482;
+&nbsp;&lt;tag&gt;&amp;more&lt;/tag&gt;

@@ -1,0 +1,1258 @@
+# P4RS3LT0NGV3 Obfuscation Detection Test Report
+Generated: 2025-07-01 15:52:43
+
+## Summary
+- Total Techniques Tested: 40
+- Techniques Detected: 40
+- Detection Rate: 100.0%
+
+## Detected Techniques
+- **BASE64**: 13 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **BASE32**: 16 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Base32_Encoding`
+  - Rule: `P4RS3LT0NGV3_ROT_Ciphers`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **BINARY**: 16 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Hexadecimal`
+  - Rule: `P4RS3LT0NGV3_Binary`
+  - Rule: `P4RS3LT0NGV3_ROT_Ciphers`
+  - Rule: `P4RS3LT0NGV3_Upside_Down`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **HEXADECIMAL**: 3 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Hexadecimal`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **ASCII85**: 14 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **URL_ENCODE**: 12 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **HTML_ENTITIES**: 15 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_HTML_Entities`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **CAESAR_CIPHER**: 13 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Caesar_Cipher`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **ROT13**: 13 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_ROT_Ciphers`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **ROT47**: 11 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **MORSE_CODE**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Morse_Code`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **STRIKETHROUGH**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **UNDERLINE**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **REVERSE_TEXT**: 12 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **UPSIDE_DOWN**: 13 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Upside_Down`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **FULL_WIDTH**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **SMALL_CAPS**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **BUBBLE**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **BRAILLE**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **GREEK_LETTERS**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **WINGDINGS**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **MEDIEVAL**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Mathematical_Fonts`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **CURSIVE**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Mathematical_Fonts`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **MONOSPACE**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Mathematical_Fonts`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **DOUBLE_STRUCK**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Mathematical_Fonts`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **ELDER_FUTHARK**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **MIRROR_TEXT**: 12 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **ZALGO**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **VAPORWAVE**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **PIG_LATIN**: 12 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **LEETSPEAK**: 12 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **NATO_PHONETIC**: 12 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **EMOJI_STEGANOGRAPHY**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Emoji_Steganography`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **INVISIBLE_TEXT**: 2 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **MIXED_BASE64_HEX**: 15 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Upside_Down`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **MIXED_ROT13_BASE64**: 15 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Upside_Down`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **MIXED_REVERSE_BINARY**: 18 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Hexadecimal`
+  - Rule: `P4RS3LT0NGV3_Binary`
+  - Rule: `P4RS3LT0NGV3_ROT_Ciphers`
+  - Rule: `P4RS3LT0NGV3_Upside_Down`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **SPECIAL_CHARS**: 10 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_ROT_Ciphers`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **UNICODE_MIXED**: 12 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+- **LONG_TEXT_SAMPLE**: 16 rule(s) matched
+  - Rule: `P4RS3LT0NGV3_Base64_Encoding`
+  - Rule: `P4RS3LT0NGV3_ROT_Ciphers`
+  - Rule: `P4RS3LT0NGV3_Upside_Down`
+  - Rule: `P4RS3LT0NGV3_Small_Caps`
+  - Rule: `P4RS3LT0NGV3_Bubble_Text`
+  - Rule: `P4RS3LT0NGV3_Full_Width`
+  - Rule: `P4RS3LT0NGV3_Braille`
+  - Rule: `P4RS3LT0NGV3_Greek_Substitution`
+  - Rule: `P4RS3LT0NGV3_Zalgo_Text`
+  - Rule: `P4RS3LT0NGV3_Invisible_Characters`
+  - Rule: `P4RS3LT0NGV3_Leetspeak`
+  - Rule: `P4RS3LT0NGV3_Runic_Elder_Futhark`
+  - Rule: `P4RS3LT0NGV3_Wingdings_Symbols`
+  - Rule: `P4RS3LT0NGV3_Multiple_Obfuscation`
+  - Rule: `P4RS3LT0NGV3_Suspicious_Patterns`
+  - Rule: `P4RS3LT0NGV3_Master_Detection`
+
+## Missed Techniques
+None missed.
+
+## Detailed Results
+### BASE64
+- Sample: `SGVsbG8gV29ybGQ=`
+- Length: 16 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 1 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 11 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 11 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 11 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 11 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 11 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 11 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$variation_selectors`: 4 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 11 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 11 instance(s)
+    - String `$symbols2`: 11 instance(s)
+    - String `$symbols3`: 11 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 12 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### BASE32
+- Sample: `JBSWY3DPEBLW64TMMQQQ====`
+- Length: 24 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 1 instance(s)
+    - String `$base64_long`: 1 instance(s)
+  - **P4RS3LT0NGV3_Base32_Encoding**
+    - String `$base32_pattern`: 1 instance(s)
+  - **P4RS3LT0NGV3_ROT_Ciphers**
+    - String `$rot47_pattern`: 17 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 22 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 19 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 22 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 22 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 22 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 22 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$variation_selectors`: 17 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 6 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 22 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 22 instance(s)
+    - String `$symbols2`: 22 instance(s)
+    - String `$symbols3`: 22 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 17 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### BINARY
+- Sample: `01001000 01100101 01101100 01101100 01101111`
+- Length: 44 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 5 instance(s)
+  - **P4RS3LT0NGV3_Hexadecimal**
+    - String `$hex_continuous`: 15 instance(s)
+  - **P4RS3LT0NGV3_Binary**
+    - String `$binary_spaced`: 3 instance(s)
+  - **P4RS3LT0NGV3_ROT_Ciphers**
+    - String `$rot47_pattern`: 5 instance(s)
+  - **P4RS3LT0NGV3_Upside_Down**
+    - String `$upside_down_chars`: 30 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 30 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 30 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 30 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 30 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 30 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$variation_selectors`: 5 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 20 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 30 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 30 instance(s)
+    - String `$symbols2`: 30 instance(s)
+    - String `$symbols3`: 2 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### HEXADECIMAL
+- Sample: `48 65 6c 6c 6f`
+- Length: 14 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Hexadecimal**
+    - String `$hex_spaced`: 2 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### ASCII85
+- Sample: `<~9jqo^BlbD-BleB1djH@-6W\z~>`
+- Length: 28 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 3 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 15 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 12 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 15 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 15 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 15 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 15 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$variation_selectors`: 4 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 6 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 15 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 15 instance(s)
+    - String `$symbols2`: 15 instance(s)
+    - String `$symbols3`: 15 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 14 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### URL_ENCODE
+- Sample: `Hello%20World%21`
+- Length: 16 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 8 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 8 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 8 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 8 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 8 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 8 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 8 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 8 instance(s)
+    - String `$symbols2`: 8 instance(s)
+    - String `$symbols3`: 6 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 8 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### HTML_ENTITIES
+- Sample: `&lt;script&gt;alert(&quot;test&quot;)&lt;/script&gt;`
+- Length: 52 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_HTML_Entities**
+    - String `$html_entity`: 6 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 29 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 29 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 29 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 29 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 29 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 29 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$zero_width_stego`: 4 instance(s)
+    - String `$variation_selectors`: 5 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 6 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 29 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 29 instance(s)
+    - String `$symbols2`: 29 instance(s)
+    - String `$symbols3`: 29 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 33 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### CAESAR_CIPHER
+- Sample: `Khoor Zruog`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Caesar_Cipher**
+    - String `$caesar_hello`: 1 instance(s)
+    - String `$caesar_world`: 1 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 6 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 6 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 3 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 6 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 6 instance(s)
+    - String `$symbols2`: 6 instance(s)
+    - String `$symbols3`: 6 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 8 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### ROT13
+- Sample: `Uryyb Jbeyq`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_ROT_Ciphers**
+    - String `$rot13_hello`: 1 instance(s)
+    - String `$rot13_world`: 1 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 1 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 1 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 1 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 1 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 1 instance(s)
+    - String `$symbols2`: 1 instance(s)
+    - String `$symbols3`: 1 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 8 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### ROT47
+- Sample: `w6==@ (@C=5`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 4 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 3 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 4 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 4 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 4 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 4 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 1 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 4 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 4 instance(s)
+    - String `$symbols2`: 4 instance(s)
+    - String `$symbols3`: 4 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 2 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### MORSE_CODE
+- Sample: `.... . .-.. .-.. ---`
+- Length: 20 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Morse_Code**
+    - String `$morse_pattern`: 11 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### STRIKETHROUGH
+- Sample: `H̶e̶l̶l̶o̶ ̶W̶o̶r̶l̶d̶`
+- Length: 22 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### UNDERLINE
+- Sample: `H̲e̲l̲l̲o̲ ̲W̲o̲r̲l̲d̲`
+- Length: 22 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### REVERSE_TEXT
+- Sample: `dlroW olleH`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 6 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 6 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 6 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 6 instance(s)
+    - String `$symbols2`: 6 instance(s)
+    - String `$symbols3`: 6 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 8 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### UPSIDE_DOWN
+- Sample: `ɥǝllo ʍoɹlp`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Upside_Down**
+    - String `$upside_down_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 1 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 1 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 3 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 1 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 1 instance(s)
+    - String `$symbols2`: 1 instance(s)
+    - String `$symbols3`: 1 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 3 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### FULL_WIDTH
+- Sample: `Ｈｅｌｌｏ　Ｗｏｒｌｄ`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### SMALL_CAPS
+- Sample: `ʜᴇʟʟᴏ ᴡᴏʀʟᴅ`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### BUBBLE
+- Sample: `Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### BRAILLE
+- Sample: `⠓⠑⠇⠇⠕`
+- Length: 5 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### GREEK_LETTERS
+- Sample: `Ηελλο Ωορλδ`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### WINGDINGS
+- Sample: `♒♏●●⚬`
+- Length: 5 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$wingdings1`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### MEDIEVAL
+- Sample: `𝖍𝖊𝖑𝖑𝖔 𝖜𝖔𝖗𝖑𝖉`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Mathematical_Fonts**
+    - String `$medieval_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### CURSIVE
+- Sample: `𝓱𝓮𝓵𝓵𝓸 𝔀𝓸𝓻𝓵𝓭`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Mathematical_Fonts**
+    - String `$cursive_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### MONOSPACE
+- Sample: `𝚑𝚎𝚕𝚕𝚘 𝚠𝚘𝚛𝚕𝚍`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Mathematical_Fonts**
+    - String `$monospace_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### DOUBLE_STRUCK
+- Sample: `𝕙𝕖𝕝𝕝𝕠 𝕨𝕠𝕣𝕝𝕕`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Mathematical_Fonts**
+    - String `$double_struck_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### ELDER_FUTHARK
+- Sample: `ᚺᛖᛚᛚᛟ`
+- Length: 5 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$elder_futhark_sample`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### MIRROR_TEXT
+- Sample: `dlroW olleH`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 6 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 6 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 6 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 6 instance(s)
+    - String `$symbols2`: 6 instance(s)
+    - String `$symbols3`: 6 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 8 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### ZALGO
+- Sample: `H̷̨̢̨̛̭̫̰̪̝̼̯̣̱̬̱̰̗̫̘̺̠̲̲̠̺̥̰̹̭̰̦̱̊̏̽̋̾͛̊̓̋̿̈́̒̏̇̊͗̃̓̍̋͗̊̔̏̓͊̈́̃̍̔̚̕̚͜͝͝͠ė̴̡̨̢̛̝͇̭̞̲̮̦̤̰̗̗̥̲̤̳̪̝̦̗̟̙̣̘̗̮̟̖̮̝̪̺̠̃̿̒̓̓̾̀͛̋̾̈́̓͌̌̑̊̓̇̑̍̊̊̇̐̊̊̿̋̃̚̚͘͜͜l̷̨̡̧̧̨̨̨̛̺̜̪̞̰̦͓̱̝̰̦̮̱̭̙̦̹̱̻̪̮̳̞͙̺̞̳̘̠̤̟̋̀̄͌̊̀̊̋̈́̾̔̂̋̿̾̿̈́̄̾̏̂͆̚̚͜͜͝l̶̢̧̡̛̛̞̣̮̮̜̪̯͇̰̯͔̦̪̪̺̰̘̘̫̪̙̱̣̙̯̫̇̐͐̇̒̃̋̌̀̀͛̑̾͂̽͌̾̄̾̋̀̆̍̍̊̔͑̑͐̀̋̍̈́̚͘͘͝ơ̵̧̮̣̩̜̰̰̭̫͓̱̪̖̼̺̠̞͈̟̫͙̤̙̠̫̳̞̯̊̊͒̊̑̽̔̉͊̈́̇́̍̇̏̒̍̄̏̅̂̿̃͌̽̈́̚̚͜͝͝`
+- Length: 350 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 3 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### VAPORWAVE
+- Sample: `H e l l o   W o r l d`
+- Length: 21 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### PIG_LATIN
+- Sample: `elloHay orldWay`
+- Length: 15 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 8 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 8 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 8 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 8 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 8 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 8 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 8 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 8 instance(s)
+    - String `$symbols2`: 8 instance(s)
+    - String `$symbols3`: 8 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 10 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### LEETSPEAK
+- Sample: `H3ll0 W0rld`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 6 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 6 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 10 instance(s)
+    - String `$leet_hello`: 1 instance(s)
+    - String `$leet_world`: 1 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 6 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 6 instance(s)
+    - String `$symbols2`: 6 instance(s)
+    - String `$symbols3`: 3 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 6 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### NATO_PHONETIC
+- Sample: `Hotel Echo Lima Lima Oscar`
+- Length: 26 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 5 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 12 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 12 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 12 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 12 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 12 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 12 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 6 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 12 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 12 instance(s)
+    - String `$symbols2`: 12 instance(s)
+    - String `$symbols3`: 12 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 17 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### EMOJI_STEGANOGRAPHY
+- Sample: `🐍︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎‍`
+- Length: 42 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Emoji_Steganography**
+    - String `$emoji_snake_stego`: 1 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### INVISIBLE_TEXT
+- Sample: `‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌`
+- Length: 40 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$invisible_sample`: 31 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### MIXED_BASE64_HEX
+- Sample: `U0dWc2JHOGdWMjl5YkdR (base64 of hex)`
+- Length: 36 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+    - String `$base64_long`: 1 instance(s)
+  - **P4RS3LT0NGV3_Upside_Down**
+    - String `$upside_down_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 22 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 17 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 22 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 22 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 22 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 22 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$variation_selectors`: 13 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 11 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 22 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 22 instance(s)
+    - String `$symbols2`: 22 instance(s)
+    - String `$symbols3`: 20 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 22 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### MIXED_ROT13_BASE64
+- Sample: `VXJ5eWIgU2JleXE= (base64 of ROT13)`
+- Length: 34 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 3 instance(s)
+  - **P4RS3LT0NGV3_Upside_Down**
+    - String `$upside_down_chars`: 1 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 21 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 16 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 21 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 21 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 21 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 21 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$variation_selectors`: 9 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 5 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 21 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 21 instance(s)
+    - String `$symbols2`: 21 instance(s)
+    - String `$symbols3`: 21 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 21 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### MIXED_REVERSE_BINARY
+- Sample: `01100100 01101100 01110010 01101111 01010111 (binary of "dlroW")`
+- Length: 64 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Hexadecimal**
+    - String `$hex_continuous`: 15 instance(s)
+  - **P4RS3LT0NGV3_Binary**
+    - String `$binary_spaced`: 4 instance(s)
+  - **P4RS3LT0NGV3_ROT_Ciphers**
+    - String `$rot47_pattern`: 5 instance(s)
+  - **P4RS3LT0NGV3_Upside_Down**
+    - String `$upside_down_chars`: 30 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 36 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 36 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 36 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 36 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 36 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$variation_selectors`: 5 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 23 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 36 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 36 instance(s)
+    - String `$symbols2`: 36 instance(s)
+    - String `$symbols3`: 10 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 9 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### SPECIAL_CHARS
+- Sample: `!@#$%^&*()_+-=[]{}|;:'".,<>?/~``
+- Length: 31 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_ROT_Ciphers**
+    - String `$rot47_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 2 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 2 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 2 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 2 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 2 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 2 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 2 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 2 instance(s)
+    - String `$symbols2`: 2 instance(s)
+    - String `$symbols3`: 2 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### UNICODE_MIXED
+- Sample: `Hello🌍World`
+- Length: 11 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 6 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 6 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 6 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 7 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 6 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 6 instance(s)
+    - String `$symbols2`: 6 instance(s)
+    - String `$symbols3`: 6 instance(s)
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$mixed_scripts`: 8 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**
+
+### LONG_TEXT_SAMPLE
+- Sample: `VGhpcyBpcyBhIGxvbmdlciB0ZXN0IHNhbXBsZSB0byBzZWUgaG93IHRoZSBvYmZ1c2NhdGlvbiBkZXRlY3Rpb24gd29ya3Mgd2l0aCBtb3JlIGNvbXBsZXggY29udGVudA==`
+- Length: 132 characters
+- Detected: ✓
+- Matches:
+  - **P4RS3LT0NGV3_Base64_Encoding**
+    - String `$base64_pattern`: 1 instance(s)
+    - String `$base64_long`: 111 instance(s)
+  - **P4RS3LT0NGV3_ROT_Ciphers**
+    - String `$rot47_pattern`: 2 instance(s)
+  - **P4RS3LT0NGV3_Upside_Down**
+    - String `$upside_down_chars`: 4 instance(s)
+  - **P4RS3LT0NGV3_Small_Caps**
+    - String `$small_caps_chars`: 103 instance(s)
+  - **P4RS3LT0NGV3_Bubble_Text**
+    - String `$bubble_chars`: 78 instance(s)
+  - **P4RS3LT0NGV3_Full_Width**
+    - String `$full_width_chars`: 103 instance(s)
+  - **P4RS3LT0NGV3_Braille**
+    - String `$braille_chars`: 103 instance(s)
+  - **P4RS3LT0NGV3_Greek_Substitution**
+    - String `$greek_letters`: 103 instance(s)
+  - **P4RS3LT0NGV3_Zalgo_Text**
+    - String `$combining_marks`: 103 instance(s)
+  - **P4RS3LT0NGV3_Invisible_Characters**
+    - String `$zero_width_stego`: 3 instance(s)
+    - String `$variation_selectors`: 67 instance(s)
+  - **P4RS3LT0NGV3_Leetspeak**
+    - String `$leet_pattern`: 30 instance(s)
+  - **P4RS3LT0NGV3_Runic_Elder_Futhark**
+    - String `$runes`: 103 instance(s)
+  - **P4RS3LT0NGV3_Wingdings_Symbols**
+    - String `$symbols1`: 103 instance(s)
+    - String `$symbols2`: 103 instance(s)
+    - String `$symbols3`: 92 instance(s)
+  - **P4RS3LT0NGV3_Multiple_Obfuscation**
+  - **P4RS3LT0NGV3_Suspicious_Patterns**
+    - String `$high_entropy`: 83 instance(s)
+    - String `$mixed_scripts`: 112 instance(s)
+  - **P4RS3LT0NGV3_Master_Detection**

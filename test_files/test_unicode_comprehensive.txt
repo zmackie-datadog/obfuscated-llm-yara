@@ -1,0 +1,31 @@
+Invisible Text Test:
+This text has󠄀󠄁󠄂󠄃 invisible characters between words.
+Hidden󠄄󠄅󠄆󠄇 steganography󠄈󠄉󠄊󠄋 message.
+
+Upside Down Test:
+sıɥʇ sı uʍop ǝpısdn ʇxǝʇ
+ǝʌıssǝɹdxǝ puɐ lɐɔıʇsuɐɟ
+
+Small Caps Test:
+ᴛʜɪs ɪs sᴍᴀʟʟ ᴄᴀᴘs ᴛᴇxᴛ
+ᴄᴏᴍᴘᴀᴄᴛ ᴀɴᴅ ɴᴇᴀᴛ
+
+Braille Test:
+⠓⠑⠇⠇⠕ ⠺⠕⠗⠇⠙
+⠞⠓⠊⠎ ⠊⠎ ⠃⠗⠁⠊⠇⠇⠑ ⠞⠑⠭⠞
+
+Bubble Text:
+ⓣⓗⓘⓢ ⓘⓢ ⓑⓤⓑⓑⓛⓔ ⓞⓡ ⓒⓘⓡⓒⓛⓔⓓ ⓣⓔⓧⓣ
+ⓔⓝⓒⓛⓞⓢⓔⓓ ⓘⓝ ⓒⓘⓡⓒⓛⓔⓢ
+
+Full Width Test:
+Ｔｈｉｓ　ｉｓ　ｆｕｌｌ　ｗｉｄｔｈ　ｔｅｘｔ
+Ｗｉｄｅ　ｃｈａｒａｃｔｅｒｓ
+
+Greek Letters Test:
+Τηιs ιs α Γρεεκ λεττερs τεsτ
+Μιχεδ ωιτη ρεγυλαρ τεχτ
+
+Wingdings Test:
+✁ ✈ ☀ ♋ ♠ ★ ❤ ✌ ✓ ☺
+Symbols and wingdings characters

@@ -1,0 +1,28 @@
+Strikethrough Test:
+T̶h̶i̶s̶ ̶i̶s̶ ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶ ̶t̶e̶x̶t̶
+C̶r̶o̶s̶s̶e̶d̶ ̶o̶u̶t̶ ̶w̶o̶r̶d̶s̶
+
+Underline Test:
+T̲h̲i̲s̲ ̲i̲s̲ ̲u̲n̲d̲e̲r̲l̲i̲n̲e̲d̲ ̲t̲e̲x̲t̲
+U̲n̲d̲e̲r̲ ̲l̲i̲n̲e̲ ̲f̲o̲r̲m̲a̲t̲t̲i̲n̲g̲
+
+Rainbow Text (with ANSI colors):
+[31mR[32mA[33mI[34mN[35mB[36mO[31mW[32m [33mT[34mE[35mX[36mT[0m
+[31mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m [34mt[35me[36mx[31mt[0m
+
+Leetspeak Test:
+Th1s 1s l33tsp34k t3xt
+H4ck3r sp34k w1th numb3rs
+3l1t3 g4m3r st7l3
+P4ssw0rd 4nd l33t c0d3
+
+NATO Phonetic Test:
+Alpha Bravo Charlie Delta Echo
+Foxtrot Golf Hotel India Juliet
+Kilo Lima Mike November Oscar
+Papa Quebec Romeo Sierra Tango
+
+Pig Latin Test:
+Isthay isway igpay atinlay exttay
+Ouyay ancay eakspay igpay atinlay
+Ethay orderway angedchay orderway
