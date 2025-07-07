@@ -1,0 +1,44 @@
+{
+  "Total budget": {
+    "technique": "Total budget",
+    "sample": "$125,000",
+    "sample_length": 8,
+    "matches": [],
+    "detected": false
+  },
+  "Spent to date": {
+    "technique": "Spent to date",
+    "sample": "$98,750",
+    "sample_length": 7,
+    "matches": [],
+    "detected": false
+  },
+  "Remaining": {
+    "technique": "Remaining",
+    "sample": "$26,250",
+    "sample_length": 7,
+    "matches": [],
+    "detected": false
+  },
+  "Email": {
+    "technique": "Email",
+    "sample": "team@company.com",
+    "sample_length": 16,
+    "matches": [],
+    "detected": false
+  },
+  "Phone": {
+    "technique": "Phone",
+    "sample": "(555) 123-4567",
+    "sample_length": 14,
+    "matches": [],
+    "detected": false
+  },
+  "Address": {
+    "technique": "Address",
+    "sample": "123 Business Ave, Suite 456, City, State 12345",
+    "sample_length": 46,
+    "matches": [],
+    "detected": false
+  }
+}

@@ -1,0 +1,5384 @@
+{
+  "../test_files/test_combined_techniques.txt": {
+    "file_path": "../test_files/test_combined_techniques.txt",
+    "file_name": "test_combined_techniques.txt",
+    "file_size": 715,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Upside_Down",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$upside_down_hello2",
+            "instances": [
+              {
+                "offset": 106,
+                "match_data": "ɥǝllo",
+                "length": 7
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_e",
+            "instances": [
+              {
+                "offset": 108,
+                "match_data": "ǝ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_h",
+            "instances": [
+              {
+                "offset": 106,
+                "match_data": "ɥ",
+                "length": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Small_Caps",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$small_caps_hello2",
+            "instances": [
+              {
+                "offset": 180,
+                "match_data": "ʜᴇʟʟᴏ",
+                "length": 12
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_h",
+            "instances": [
+              {
+                "offset": 180,
+                "match_data": "ʜ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_e",
+            "instances": [
+              {
+                "offset": 182,
+                "match_data": "ᴇ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_l",
+            "instances": [
+              {
+                "offset": 185,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 187,
+                "match_data": "ʟ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_o",
+            "instances": [
+              {
+                "offset": 189,
+                "match_data": "ᴏ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Bubble_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$bubble_e",
+            "instances": [
+              {
+                "offset": 209,
+                "match_data": "ⓔ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_l",
+            "instances": [
+              {
+                "offset": 212,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 215,
+                "match_data": "ⓛ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_o",
+            "instances": [
+              {
+                "offset": 218,
+                "match_data": "ⓞ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Braille",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$braille_hello",
+            "instances": [
+              {
+                "offset": 154,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$braille_hello2",
+            "instances": [
+              {
+                "offset": 154,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Emoji_Steganography",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$emoji_snake_stego",
+            "instances": [
+              {
+                "offset": 247,
+                "match_data": "🐍︎︎︎︎︎︎︎︎︎︎",
+                "length": 34
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Runic_Elder_Futhark",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$elder_futhark_hello",
+            "instances": [
+              {
+                "offset": 128,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$elder_futhark_hello2",
+            "instances": [
+              {
+                "offset": 128,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/normal_data.csv": {
+    "file_path": "../test_files/normal_data.csv",
+    "file_name": "normal_data.csv",
+    "file_size": 1004,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_actual_base64_outcome.txt": {
+    "file_path": "../test_files/test_actual_base64_outcome.txt",
+    "file_name": "test_actual_base64_outcome.txt",
+    "file_size": 282,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Zalgo_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$combining_marks",
+            "instances": [
+              {
+                "offset": 117,
+                "match_data": "BhIHNlY3JldCBtZXN",
+                "length": 17
+              },
+              {
+                "offset": 118,
+                "match_data": "hIHNlY3JldCBtZXN",
+                "length": 16
+              },
+              {
+                "offset": 119,
+                "match_data": "IHNlY3JldCBtZXN",
+                "length": 15
+              },
+              {
+                "offset": 169,
+                "match_data": "U29tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 31
+              },
+              {
+                "offset": 170,
+                "match_data": "29tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 30
+              },
+              {
+                "offset": 171,
+                "match_data": "9tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 29
+              },
+              {
+                "offset": 172,
+                "match_data": "tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 28
+              },
+              {
+                "offset": 173,
+                "match_data": "ZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 27
+              },
+              {
+                "offset": 174,
+                "match_data": "XRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 26
+              },
+              {
+                "offset": 175,
+                "match_data": "RoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 25
+              },
+              {
+                "offset": 176,
+                "match_data": "oaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 24
+              },
+              {
+                "offset": 177,
+                "match_data": "aW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 23
+              },
+              {
+                "offset": 178,
+                "match_data": "W5nIGhpZGRlbiBpbiBlbmN",
+                "length": 22
+              },
+              {
+                "offset": 179,
+                "match_data": "5nIGhpZGRlbiBpbiBlbmN",
+                "length": 21
+              },
+              {
+                "offset": 180,
+                "match_data": "nIGhpZGRlbiBpbiBlbmN",
+                "length": 20
+              },
+              {
+                "offset": 181,
+                "match_data": "IGhpZGRlbiBpbiBlbmN",
+                "length": 19
+              },
+              {
+                "offset": 182,
+                "match_data": "GhpZGRlbiBpbiBlbmN",
+                "length": 18
+              },
+              {
+                "offset": 183,
+                "match_data": "hpZGRlbiBpbiBlbmN",
+                "length": 17
+              },
+              {
+                "offset": 184,
+                "match_data": "pZGRlbiBpbiBlbmN",
+                "length": 16
+              },
+              {
+                "offset": 185,
+                "match_data": "ZGRlbiBpbiBlbmN",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Invisible_Characters",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$variation_selectors",
+            "instances": [
+              {
+                "offset": 169,
+                "match_data": "U29tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 31
+              },
+              {
+                "offset": 170,
+                "match_data": "29tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 30
+              },
+              {
+                "offset": 171,
+                "match_data": "9tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 29
+              },
+              {
+                "offset": 172,
+                "match_data": "tZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 28
+              },
+              {
+                "offset": 173,
+                "match_data": "ZXRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 27
+              },
+              {
+                "offset": 174,
+                "match_data": "XRoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 26
+              },
+              {
+                "offset": 175,
+                "match_data": "RoaW5nIGhpZGRlbiBpbiBlbmN",
+                "length": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/moar_zalgo.txt": {
+    "file_path": "../test_files/moar_zalgo.txt",
+    "file_name": "moar_zalgo.txt",
+    "file_size": 789,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_actual_hex_outcome.txt": {
+    "file_path": "../test_files/test_actual_hex_outcome.txt",
+    "file_name": "test_actual_hex_outcome.txt",
+    "file_size": 266,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Hexadecimal",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$hex_spaced",
+            "instances": [
+              {
+                "offset": 106,
+                "match_data": "53 65 63 72 65 74 20 6d 65 73 73 61 67 65\n",
+                "length": 42
+              },
+              {
+                "offset": 109,
+                "match_data": "65 63 72 65 74 20 6d 65 73 73 61 67 65\n",
+                "length": 39
+              },
+              {
+                "offset": 112,
+                "match_data": "63 72 65 74 20 6d 65 73 73 61 67 65\n",
+                "length": 36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_ciphers_comprehensive.txt": {
+    "file_path": "../test_files/test_ciphers_comprehensive.txt",
+    "file_name": "test_ciphers_comprehensive.txt",
+    "file_size": 1279,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Hexadecimal",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$hex_spaced",
+            "instances": [
+              {
+                "offset": 703,
+                "match_data": "48 65 6c 6c 6f 20 57 6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 96
+              },
+              {
+                "offset": 706,
+                "match_data": "65 6c 6c 6f 20 57 6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 93
+              },
+              {
+                "offset": 709,
+                "match_data": "6c 6c 6f 20 57 6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 90
+              },
+              {
+                "offset": 712,
+                "match_data": "6c 6f 20 57 6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 87
+              },
+              {
+                "offset": 715,
+                "match_data": "6f 20 57 6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 84
+              },
+              {
+                "offset": 718,
+                "match_data": "20 57 6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 81
+              },
+              {
+                "offset": 721,
+                "match_data": "57 6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 78
+              },
+              {
+                "offset": 724,
+                "match_data": "6f 72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 75
+              },
+              {
+                "offset": 727,
+                "match_data": "72 6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 72
+              },
+              {
+                "offset": 730,
+                "match_data": "6c 64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 69
+              },
+              {
+                "offset": 733,
+                "match_data": "64\n54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 66
+              },
+              {
+                "offset": 736,
+                "match_data": "54 68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 63
+              },
+              {
+                "offset": 739,
+                "match_data": "68 69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 60
+              },
+              {
+                "offset": 742,
+                "match_data": "69 73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 57
+              },
+              {
+                "offset": 745,
+                "match_data": "73 20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 54
+              },
+              {
+                "offset": 748,
+                "match_data": "20 69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 51
+              },
+              {
+                "offset": 751,
+                "match_data": "69 73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 48
+              },
+              {
+                "offset": 754,
+                "match_data": "73 20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 45
+              },
+              {
+                "offset": 757,
+                "match_data": "20 68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 42
+              },
+              {
+                "offset": 760,
+                "match_data": "68 65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 39
+              },
+              {
+                "offset": 763,
+                "match_data": "65 78\n41 42 43 44 45 46 47 48 49 4a\n",
+                "length": 36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Binary",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$binary_spaced",
+            "instances": [
+              {
+                "offset": 540,
+                "match_data": "01001000 01100101 01101100 01101100 01101111\n01010111 01101111 01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 144
+              },
+              {
+                "offset": 549,
+                "match_data": "01100101 01101100 01101100 01101111\n01010111 01101111 01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 135
+              },
+              {
+                "offset": 558,
+                "match_data": "01101100 01101100 01101111\n01010111 01101111 01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 126
+              },
+              {
+                "offset": 567,
+                "match_data": "01101100 01101111\n01010111 01101111 01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 117
+              },
+              {
+                "offset": 576,
+                "match_data": "01101111\n01010111 01101111 01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 108
+              },
+              {
+                "offset": 585,
+                "match_data": "01010111 01101111 01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 99
+              },
+              {
+                "offset": 594,
+                "match_data": "01101111 01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 90
+              },
+              {
+                "offset": 603,
+                "match_data": "01110010 01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 81
+              },
+              {
+                "offset": 612,
+                "match_data": "01101100 01100100\n01000010 01101001 01101110 01100001 01110010 01111001\n",
+                "length": 72
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_ASCII85",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$ascii85",
+            "instances": [
+              {
+                "offset": 976,
+                "match_data": "<~9jqo^BlbD-BleB1djH3++=~>",
+                "length": 26
+              },
+              {
+                "offset": 1003,
+                "match_data": "<~@/;]8ATMoD@3B8?<,@;0'9~>",
+                "length": 26
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_URL_Encoding",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$url_encoded",
+            "instances": [
+              {
+                "offset": 1035,
+                "match_data": "%9A",
+                "length": 3
+              },
+              {
+                "offset": 1073,
+                "match_data": "%20",
+                "length": 3
+              },
+              {
+                "offset": 1081,
+                "match_data": "%21",
+                "length": 3
+              },
+              {
+                "offset": 1089,
+                "match_data": "%20",
+                "length": 3
+              },
+              {
+                "offset": 1094,
+                "match_data": "%20",
+                "length": 3
+              },
+              {
+                "offset": 1100,
+                "match_data": "%20",
+                "length": 3
+              },
+              {
+                "offset": 1110,
+                "match_data": "%20",
+                "length": 3
+              },
+              {
+                "offset": 1118,
+                "match_data": "%48",
+                "length": 3
+              },
+              {
+                "offset": 1121,
+                "match_data": "%65",
+                "length": 3
+              },
+              {
+                "offset": 1124,
+                "match_data": "%6C",
+                "length": 3
+              },
+              {
+                "offset": 1127,
+                "match_data": "%6C",
+                "length": 3
+              },
+              {
+                "offset": 1130,
+                "match_data": "%6F",
+                "length": 3
+              },
+              {
+                "offset": 1133,
+                "match_data": "%20",
+                "length": 3
+              },
+              {
+                "offset": 1136,
+                "match_data": "%57",
+                "length": 3
+              },
+              {
+                "offset": 1139,
+                "match_data": "%6F",
+                "length": 3
+              },
+              {
+                "offset": 1142,
+                "match_data": "%72",
+                "length": 3
+              },
+              {
+                "offset": 1145,
+                "match_data": "%6C",
+                "length": 3
+              },
+              {
+                "offset": 1148,
+                "match_data": "%64",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_HTML_Entities",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$html_entity",
+            "instances": [
+              {
+                "offset": 1173,
+                "match_data": "&lt;",
+                "length": 4
+              },
+              {
+                "offset": 1182,
+                "match_data": "&gt;",
+                "length": 4
+              },
+              {
+                "offset": 1187,
+                "match_data": "&amp;",
+                "length": 5
+              },
+              {
+                "offset": 1193,
+                "match_data": "&quot;",
+                "length": 6
+              },
+              {
+                "offset": 1204,
+                "match_data": "&quot;",
+                "length": 6
+              },
+              {
+                "offset": 1211,
+                "match_data": "&copy;",
+                "length": 6
+              },
+              {
+                "offset": 1218,
+                "match_data": "&reg;",
+                "length": 5
+              },
+              {
+                "offset": 1224,
+                "match_data": "&trade;",
+                "length": 7
+              },
+              {
+                "offset": 1232,
+                "match_data": "&#8482;",
+                "length": 7
+              },
+              {
+                "offset": 1240,
+                "match_data": "&nbsp;",
+                "length": 6
+              },
+              {
+                "offset": 1246,
+                "match_data": "&lt;",
+                "length": 4
+              },
+              {
+                "offset": 1253,
+                "match_data": "&gt;",
+                "length": 4
+              },
+              {
+                "offset": 1257,
+                "match_data": "&amp;",
+                "length": 5
+              },
+              {
+                "offset": 1266,
+                "match_data": "&lt;",
+                "length": 4
+              },
+              {
+                "offset": 1274,
+                "match_data": "&gt;",
+                "length": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_ROT_Ciphers",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$rot47_pattern",
+            "instances": [
+              {
+                "offset": 438,
+                "match_data": "()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 51
+              },
+              {
+                "offset": 439,
+                "match_data": ")*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 50
+              },
+              {
+                "offset": 440,
+                "match_data": "*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 49
+              },
+              {
+                "offset": 441,
+                "match_data": "+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 48
+              },
+              {
+                "offset": 442,
+                "match_data": ",-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 47
+              },
+              {
+                "offset": 443,
+                "match_data": "-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 46
+              },
+              {
+                "offset": 444,
+                "match_data": "./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 45
+              },
+              {
+                "offset": 445,
+                "match_data": "/0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 44
+              },
+              {
+                "offset": 446,
+                "match_data": "0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 43
+              },
+              {
+                "offset": 447,
+                "match_data": "123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 42
+              },
+              {
+                "offset": 448,
+                "match_data": "23456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 41
+              },
+              {
+                "offset": 449,
+                "match_data": "3456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 40
+              },
+              {
+                "offset": 450,
+                "match_data": "456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 39
+              },
+              {
+                "offset": 451,
+                "match_data": "56789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 38
+              },
+              {
+                "offset": 452,
+                "match_data": "6789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 37
+              },
+              {
+                "offset": 453,
+                "match_data": "789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 36
+              },
+              {
+                "offset": 454,
+                "match_data": "89:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 35
+              },
+              {
+                "offset": 455,
+                "match_data": "9:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 34
+              },
+              {
+                "offset": 456,
+                "match_data": ":;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 33
+              },
+              {
+                "offset": 457,
+                "match_data": ";<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 32
+              },
+              {
+                "offset": 458,
+                "match_data": "<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 31
+              },
+              {
+                "offset": 459,
+                "match_data": "=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "length": 30
+              },
+              {
+                "offset": 1118,
+                "match_data": "%48%65%6C%6C%6F%20%57%6F%72%6C%64",
+                "length": 33
+              },
+              {
+                "offset": 1119,
+                "match_data": "48%65%6C%6C%6F%20%57%6F%72%6C%64",
+                "length": 32
+              },
+              {
+                "offset": 1120,
+                "match_data": "8%65%6C%6C%6F%20%57%6F%72%6C%64",
+                "length": 31
+              },
+              {
+                "offset": 1121,
+                "match_data": "%65%6C%6C%6F%20%57%6F%72%6C%64",
+                "length": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Morse_Code",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$morse_sos",
+            "instances": [
+              {
+                "offset": 120,
+                "match_data": "... --- ...",
+                "length": 11
+              }
+            ]
+          },
+          {
+            "identifier": "$morse_hello",
+            "instances": [
+              {
+                "offset": 17,
+                "match_data": ".... . .-.. .-.. ---",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "identifier": "$morse_world",
+            "instances": [
+              {
+                "offset": 40,
+                "match_data": ".-- --- .-. .-.. -..",
+                "length": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Zalgo_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$combining_marks",
+            "instances": [
+              {
+                "offset": 244,
+                "match_data": "Defrqdelmnopqrstu",
+                "length": 17
+              },
+              {
+                "offset": 245,
+                "match_data": "efrqdelmnopqrstu",
+                "length": 16
+              },
+              {
+                "offset": 246,
+                "match_data": "frqdelmnopqrstu",
+                "length": 15
+              },
+              {
+                "offset": 446,
+                "match_data": "0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 70
+              },
+              {
+                "offset": 447,
+                "match_data": "123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 69
+              },
+              {
+                "offset": 448,
+                "match_data": "23456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 68
+              },
+              {
+                "offset": 449,
+                "match_data": "3456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 67
+              },
+              {
+                "offset": 450,
+                "match_data": "456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 66
+              },
+              {
+                "offset": 451,
+                "match_data": "56789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 65
+              },
+              {
+                "offset": 452,
+                "match_data": "6789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 64
+              },
+              {
+                "offset": 453,
+                "match_data": "789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 63
+              },
+              {
+                "offset": 454,
+                "match_data": "89:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 62
+              },
+              {
+                "offset": 455,
+                "match_data": "9:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 61
+              },
+              {
+                "offset": 456,
+                "match_data": ":;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 60
+              },
+              {
+                "offset": 457,
+                "match_data": ";<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 59
+              },
+              {
+                "offset": 458,
+                "match_data": "<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 58
+              },
+              {
+                "offset": 459,
+                "match_data": "=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 57
+              },
+              {
+                "offset": 460,
+                "match_data": ">?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 56
+              },
+              {
+                "offset": 461,
+                "match_data": "?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 55
+              },
+              {
+                "offset": 462,
+                "match_data": "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 54
+              },
+              {
+                "offset": 463,
+                "match_data": "ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 53
+              },
+              {
+                "offset": 464,
+                "match_data": "BCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 52
+              },
+              {
+                "offset": 465,
+                "match_data": "CDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 51
+              },
+              {
+                "offset": 466,
+                "match_data": "DEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 50
+              },
+              {
+                "offset": 467,
+                "match_data": "EFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 49
+              },
+              {
+                "offset": 468,
+                "match_data": "FGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 48
+              },
+              {
+                "offset": 469,
+                "match_data": "GHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 47
+              },
+              {
+                "offset": 470,
+                "match_data": "HIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 46
+              },
+              {
+                "offset": 471,
+                "match_data": "IJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 45
+              },
+              {
+                "offset": 472,
+                "match_data": "JKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 44
+              },
+              {
+                "offset": 473,
+                "match_data": "KLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 43
+              },
+              {
+                "offset": 474,
+                "match_data": "LMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 42
+              },
+              {
+                "offset": 475,
+                "match_data": "MNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 41
+              },
+              {
+                "offset": 476,
+                "match_data": "NOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 40
+              },
+              {
+                "offset": 477,
+                "match_data": "OPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 39
+              },
+              {
+                "offset": 478,
+                "match_data": "PQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 38
+              },
+              {
+                "offset": 479,
+                "match_data": "QRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 37
+              },
+              {
+                "offset": 480,
+                "match_data": "RSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 36
+              },
+              {
+                "offset": 481,
+                "match_data": "STUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 35
+              },
+              {
+                "offset": 482,
+                "match_data": "TUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 34
+              },
+              {
+                "offset": 483,
+                "match_data": "UVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 33
+              },
+              {
+                "offset": 484,
+                "match_data": "VWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 32
+              },
+              {
+                "offset": 485,
+                "match_data": "WXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 31
+              },
+              {
+                "offset": 486,
+                "match_data": "XYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 30
+              },
+              {
+                "offset": 487,
+                "match_data": "YZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 29
+              },
+              {
+                "offset": 488,
+                "match_data": "Z[\\]^_`abcdefghijklmnopqrstu",
+                "length": 28
+              },
+              {
+                "offset": 489,
+                "match_data": "[\\]^_`abcdefghijklmnopqrstu",
+                "length": 27
+              },
+              {
+                "offset": 490,
+                "match_data": "\\]^_`abcdefghijklmnopqrstu",
+                "length": 26
+              },
+              {
+                "offset": 491,
+                "match_data": "]^_`abcdefghijklmnopqrstu",
+                "length": 25
+              },
+              {
+                "offset": 492,
+                "match_data": "^_`abcdefghijklmnopqrstu",
+                "length": 24
+              },
+              {
+                "offset": 493,
+                "match_data": "_`abcdefghijklmnopqrstu",
+                "length": 23
+              },
+              {
+                "offset": 494,
+                "match_data": "`abcdefghijklmnopqrstu",
+                "length": 22
+              },
+              {
+                "offset": 495,
+                "match_data": "abcdefghijklmnopqrstu",
+                "length": 21
+              },
+              {
+                "offset": 496,
+                "match_data": "bcdefghijklmnopqrstu",
+                "length": 20
+              },
+              {
+                "offset": 497,
+                "match_data": "cdefghijklmnopqrstu",
+                "length": 19
+              },
+              {
+                "offset": 498,
+                "match_data": "defghijklmnopqrstu",
+                "length": 18
+              },
+              {
+                "offset": 499,
+                "match_data": "efghijklmnopqrstu",
+                "length": 17
+              },
+              {
+                "offset": 500,
+                "match_data": "fghijklmnopqrstu",
+                "length": 16
+              },
+              {
+                "offset": 501,
+                "match_data": "ghijklmnopqrstu",
+                "length": 15
+              },
+              {
+                "offset": 894,
+                "match_data": "JBSWY3DPEBLW64TMMQ======",
+                "length": 24
+              },
+              {
+                "offset": 895,
+                "match_data": "BSWY3DPEBLW64TMMQ======",
+                "length": 23
+              },
+              {
+                "offset": 896,
+                "match_data": "SWY3DPEBLW64TMMQ======",
+                "length": 22
+              },
+              {
+                "offset": 897,
+                "match_data": "WY3DPEBLW64TMMQ======",
+                "length": 21
+              },
+              {
+                "offset": 898,
+                "match_data": "Y3DPEBLW64TMMQ======",
+                "length": 20
+              },
+              {
+                "offset": 899,
+                "match_data": "3DPEBLW64TMMQ======",
+                "length": 19
+              },
+              {
+                "offset": 900,
+                "match_data": "DPEBLW64TMMQ======",
+                "length": 18
+              },
+              {
+                "offset": 901,
+                "match_data": "PEBLW64TMMQ======",
+                "length": 17
+              },
+              {
+                "offset": 902,
+                "match_data": "EBLW64TMMQ======",
+                "length": 16
+              },
+              {
+                "offset": 903,
+                "match_data": "BLW64TMMQ======",
+                "length": 15
+              },
+              {
+                "offset": 919,
+                "match_data": "ORSXG5DJNZTQ====",
+                "length": 16
+              },
+              {
+                "offset": 920,
+                "match_data": "RSXG5DJNZTQ====",
+                "length": 15
+              },
+              {
+                "offset": 936,
+                "match_data": "MFRGG43UEBUW4IDPMYQGE3DP",
+                "length": 24
+              },
+              {
+                "offset": 937,
+                "match_data": "FRGG43UEBUW4IDPMYQGE3DP",
+                "length": 23
+              },
+              {
+                "offset": 938,
+                "match_data": "RGG43UEBUW4IDPMYQGE3DP",
+                "length": 22
+              },
+              {
+                "offset": 939,
+                "match_data": "GG43UEBUW4IDPMYQGE3DP",
+                "length": 21
+              },
+              {
+                "offset": 940,
+                "match_data": "G43UEBUW4IDPMYQGE3DP",
+                "length": 20
+              },
+              {
+                "offset": 941,
+                "match_data": "43UEBUW4IDPMYQGE3DP",
+                "length": 19
+              },
+              {
+                "offset": 942,
+                "match_data": "3UEBUW4IDPMYQGE3DP",
+                "length": 18
+              },
+              {
+                "offset": 943,
+                "match_data": "UEBUW4IDPMYQGE3DP",
+                "length": 17
+              },
+              {
+                "offset": 944,
+                "match_data": "EBUW4IDPMYQGE3DP",
+                "length": 16
+              },
+              {
+                "offset": 945,
+                "match_data": "BUW4IDPMYQGE3DP",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Invisible_Characters",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$zero_width_stego",
+            "instances": [
+              {
+                "offset": 496,
+                "match_data": "bcdefghijklmnopqrstu",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "identifier": "$variation_selectors",
+            "instances": [
+              {
+                "offset": 446,
+                "match_data": "0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 70
+              },
+              {
+                "offset": 447,
+                "match_data": "123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 69
+              },
+              {
+                "offset": 448,
+                "match_data": "23456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 68
+              },
+              {
+                "offset": 449,
+                "match_data": "3456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 67
+              },
+              {
+                "offset": 450,
+                "match_data": "456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 66
+              },
+              {
+                "offset": 451,
+                "match_data": "56789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 65
+              },
+              {
+                "offset": 452,
+                "match_data": "6789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 64
+              },
+              {
+                "offset": 453,
+                "match_data": "789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 63
+              },
+              {
+                "offset": 454,
+                "match_data": "89:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 62
+              },
+              {
+                "offset": 455,
+                "match_data": "9:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 61
+              },
+              {
+                "offset": 456,
+                "match_data": ":;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 60
+              },
+              {
+                "offset": 457,
+                "match_data": ";<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 59
+              },
+              {
+                "offset": 458,
+                "match_data": "<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 58
+              },
+              {
+                "offset": 459,
+                "match_data": "=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 57
+              },
+              {
+                "offset": 460,
+                "match_data": ">?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 56
+              },
+              {
+                "offset": 461,
+                "match_data": "?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 55
+              },
+              {
+                "offset": 462,
+                "match_data": "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 54
+              },
+              {
+                "offset": 463,
+                "match_data": "ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 53
+              },
+              {
+                "offset": 464,
+                "match_data": "BCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 52
+              },
+              {
+                "offset": 465,
+                "match_data": "CDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 51
+              },
+              {
+                "offset": 466,
+                "match_data": "DEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 50
+              },
+              {
+                "offset": 467,
+                "match_data": "EFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 49
+              },
+              {
+                "offset": 468,
+                "match_data": "FGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 48
+              },
+              {
+                "offset": 469,
+                "match_data": "GHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 47
+              },
+              {
+                "offset": 470,
+                "match_data": "HIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 46
+              },
+              {
+                "offset": 471,
+                "match_data": "IJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 45
+              },
+              {
+                "offset": 472,
+                "match_data": "JKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 44
+              },
+              {
+                "offset": 473,
+                "match_data": "KLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 43
+              },
+              {
+                "offset": 474,
+                "match_data": "LMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 42
+              },
+              {
+                "offset": 475,
+                "match_data": "MNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 41
+              },
+              {
+                "offset": 476,
+                "match_data": "NOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 40
+              },
+              {
+                "offset": 477,
+                "match_data": "OPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 39
+              },
+              {
+                "offset": 478,
+                "match_data": "PQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 38
+              },
+              {
+                "offset": 479,
+                "match_data": "QRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 37
+              },
+              {
+                "offset": 480,
+                "match_data": "RSTUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 36
+              },
+              {
+                "offset": 481,
+                "match_data": "STUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 35
+              },
+              {
+                "offset": 482,
+                "match_data": "TUVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 34
+              },
+              {
+                "offset": 483,
+                "match_data": "UVWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 33
+              },
+              {
+                "offset": 484,
+                "match_data": "VWXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 32
+              },
+              {
+                "offset": 485,
+                "match_data": "WXYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 31
+              },
+              {
+                "offset": 486,
+                "match_data": "XYZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 30
+              },
+              {
+                "offset": 487,
+                "match_data": "YZ[\\]^_`abcdefghijklmnopqrstu",
+                "length": 29
+              },
+              {
+                "offset": 488,
+                "match_data": "Z[\\]^_`abcdefghijklmnopqrstu",
+                "length": 28
+              },
+              {
+                "offset": 489,
+                "match_data": "[\\]^_`abcdefghijklmnopqrstu",
+                "length": 27
+              },
+              {
+                "offset": 490,
+                "match_data": "\\]^_`abcdefghijklmnopqrstu",
+                "length": 26
+              },
+              {
+                "offset": 491,
+                "match_data": "]^_`abcdefghijklmnopqrstu",
+                "length": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_zalgo_comprehensive.txt": {
+    "file_path": "../test_files/test_zalgo_comprehensive.txt",
+    "file_name": "test_zalgo_comprehensive.txt",
+    "file_size": 876,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_actual_braille.txt": {
+    "file_path": "../test_files/test_actual_braille.txt",
+    "file_name": "test_actual_braille.txt",
+    "file_size": 309,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Braille",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$braille_hello",
+            "instances": [
+              {
+                "offset": 44,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$braille_hello2",
+            "instances": [
+              {
+                "offset": 44,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_unicode_comprehensive.txt": {
+    "file_path": "../test_files/test_unicode_comprehensive.txt",
+    "file_name": "test_unicode_comprehensive.txt",
+    "file_size": 937,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Upside_Down",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$upside_chars_a",
+            "instances": [
+              {
+                "offset": 222,
+                "match_data": "ɐ",
+                "length": 2
+              },
+              {
+                "offset": 226,
+                "match_data": "ɐ",
+                "length": 2
+              },
+              {
+                "offset": 236,
+                "match_data": "ɐ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_e",
+            "instances": [
+              {
+                "offset": 186,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 198,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 203,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 211,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 217,
+                "match_data": "ǝ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_h",
+            "instances": [
+              {
+                "offset": 171,
+                "match_data": "ɥ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_w",
+            "instances": [
+              {
+                "offset": 181,
+                "match_data": "ʍ",
+                "length": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Small_Caps",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$small_caps_h",
+            "instances": [
+              {
+                "offset": 262,
+                "match_data": "ʜ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_e",
+            "instances": [
+              {
+                "offset": 298,
+                "match_data": "ᴇ",
+                "length": 3
+              },
+              {
+                "offset": 339,
+                "match_data": "ᴇ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_l",
+            "instances": [
+              {
+                "offset": 279,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 281,
+                "match_data": "ʟ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_o",
+            "instances": [
+              {
+                "offset": 309,
+                "match_data": "ᴏ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Bubble_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$bubble_e",
+            "instances": [
+              {
+                "offset": 500,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 526,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 536,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 546,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 564,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 593,
+                "match_data": "ⓔ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_l",
+            "instances": [
+              {
+                "offset": 497,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 523,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 555,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 590,
+                "match_data": "ⓛ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_o",
+            "instances": [
+              {
+                "offset": 504,
+                "match_data": "ⓞ",
+                "length": 3
+              },
+              {
+                "offset": 558,
+                "match_data": "ⓞ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Full_Width",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$full_width_e",
+            "instances": [
+              {
+                "offset": 678,
+                "match_data": "ｅ",
+                "length": 3
+              },
+              {
+                "offset": 697,
+                "match_data": "ｅ",
+                "length": 3
+              },
+              {
+                "offset": 724,
+                "match_data": "ｅ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$full_width_l",
+            "instances": [
+              {
+                "offset": 648,
+                "match_data": "ｌ",
+                "length": 3
+              },
+              {
+                "offset": 651,
+                "match_data": "ｌ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Braille",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$braille_hello",
+            "instances": [
+              {
+                "offset": 364,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$braille_hello2",
+            "instances": [
+              {
+                "offset": 364,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Multiple_Obfuscation",
+        "tags": [],
+        "strings": []
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_no_obfuscation.txt": {
+    "file_path": "../test_files/test_no_obfuscation.txt",
+    "file_name": "test_no_obfuscation.txt",
+    "file_size": 407,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/normal_readme.md": {
+    "file_path": "../test_files/normal_readme.md",
+    "file_name": "normal_readme.md",
+    "file_size": 2081,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_ROT_Ciphers",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$rot47_pattern",
+            "instances": [
+              {
+                "offset": 838,
+                "match_data": "|--------|----------|-------------|",
+                "length": 35
+              },
+              {
+                "offset": 839,
+                "match_data": "--------|----------|-------------|",
+                "length": 34
+              },
+              {
+                "offset": 840,
+                "match_data": "-------|----------|-------------|",
+                "length": 33
+              },
+              {
+                "offset": 841,
+                "match_data": "------|----------|-------------|",
+                "length": 32
+              },
+              {
+                "offset": 842,
+                "match_data": "-----|----------|-------------|",
+                "length": 31
+              },
+              {
+                "offset": 843,
+                "match_data": "----|----------|-------------|",
+                "length": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/normal_code_sample.py": {
+    "file_path": "../test_files/normal_code_sample.py",
+    "file_name": "normal_code_sample.py",
+    "file_size": 3945,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Zalgo_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$combining_marks",
+            "instances": [
+              {
+                "offset": 3841,
+                "match_data": "boardInterrupt:",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_minimal_obfuscation.txt": {
+    "file_path": "../test_files/test_minimal_obfuscation.txt",
+    "file_name": "test_minimal_obfuscation.txt",
+    "file_size": 410,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_obfuscation_code.py": {
+    "file_path": "../test_files/test_obfuscation_code.py",
+    "file_name": "test_obfuscation_code.py",
+    "file_size": 1577,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Upside_Down",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$upside_down_hello2",
+            "instances": [
+              {
+                "offset": 1408,
+                "match_data": "ɥǝllo",
+                "length": 7
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_a",
+            "instances": [
+              {
+                "offset": 216,
+                "match_data": "ɐ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_e",
+            "instances": [
+              {
+                "offset": 258,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 1410,
+                "match_data": "ǝ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_h",
+            "instances": [
+              {
+                "offset": 1408,
+                "match_data": "ɥ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_w",
+            "instances": [
+              {
+                "offset": 1416,
+                "match_data": "ʍ",
+                "length": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Braille",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$braille_hello",
+            "instances": [
+              {
+                "offset": 1504,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$braille_hello2",
+            "instances": [
+              {
+                "offset": 1504,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Zalgo_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$combining_marks",
+            "instances": [
+              {
+                "offset": 747,
+                "match_data": "function_encode_test",
+                "length": 20
+              },
+              {
+                "offset": 748,
+                "match_data": "unction_encode_test",
+                "length": 19
+              },
+              {
+                "offset": 749,
+                "match_data": "nction_encode_test",
+                "length": 18
+              },
+              {
+                "offset": 750,
+                "match_data": "ction_encode_test",
+                "length": 17
+              },
+              {
+                "offset": 751,
+                "match_data": "tion_encode_test",
+                "length": 16
+              },
+              {
+                "offset": 752,
+                "match_data": "ion_encode_test",
+                "length": 15
+              },
+              {
+                "offset": 845,
+                "match_data": "function_decode_test",
+                "length": 20
+              },
+              {
+                "offset": 846,
+                "match_data": "unction_decode_test",
+                "length": 19
+              },
+              {
+                "offset": 847,
+                "match_data": "nction_decode_test",
+                "length": 18
+              },
+              {
+                "offset": 848,
+                "match_data": "ction_decode_test",
+                "length": 17
+              },
+              {
+                "offset": 849,
+                "match_data": "tion_decode_test",
+                "length": 16
+              },
+              {
+                "offset": 850,
+                "match_data": "ion_decode_test",
+                "length": 15
+              },
+              {
+                "offset": 1387,
+                "match_data": "ample_upside_do",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_special_techniques.txt": {
+    "file_path": "../test_files/test_special_techniques.txt",
+    "file_name": "test_special_techniques.txt",
+    "file_size": 1156,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Runic_Elder_Futhark",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$elder_futhark_hello",
+            "instances": [
+              {
+                "offset": 26,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$elder_futhark_hello2",
+            "instances": [
+              {
+                "offset": 26,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_unicode_obfuscation.txt": {
+    "file_path": "../test_files/test_unicode_obfuscation.txt",
+    "file_name": "test_unicode_obfuscation.txt",
+    "file_size": 962,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Upside_Down",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$upside_down_hello",
+            "instances": [
+              {
+                "offset": 91,
+                "match_data": "ɥǝllo ʍoɹlp",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_down_hello2",
+            "instances": [
+              {
+                "offset": 91,
+                "match_data": "ɥǝllo",
+                "length": 7
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_down_world",
+            "instances": [
+              {
+                "offset": 99,
+                "match_data": "ʍoɹlp",
+                "length": 7
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_a",
+            "instances": [
+              {
+                "offset": 121,
+                "match_data": "ɐ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_e",
+            "instances": [
+              {
+                "offset": 93,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 126,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 143,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 154,
+                "match_data": "ǝ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_h",
+            "instances": [
+              {
+                "offset": 91,
+                "match_data": "ɥ",
+                "length": 2
+              },
+              {
+                "offset": 109,
+                "match_data": "ɥ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_w",
+            "instances": [
+              {
+                "offset": 99,
+                "match_data": "ʍ",
+                "length": 2
+              },
+              {
+                "offset": 148,
+                "match_data": "ʍ",
+                "length": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Small_Caps",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$small_caps_hello",
+            "instances": [
+              {
+                "offset": 424,
+                "match_data": "ʜᴇʟʟᴏ ᴡᴏʀʟᴅ",
+                "length": 26
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_hello2",
+            "instances": [
+              {
+                "offset": 424,
+                "match_data": "ʜᴇʟʟᴏ",
+                "length": 12
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_h",
+            "instances": [
+              {
+                "offset": 424,
+                "match_data": "ʜ",
+                "length": 2
+              },
+              {
+                "offset": 454,
+                "match_data": "ʜ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_e",
+            "instances": [
+              {
+                "offset": 426,
+                "match_data": "ᴇ",
+                "length": 3
+              },
+              {
+                "offset": 471,
+                "match_data": "ᴇ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_l",
+            "instances": [
+              {
+                "offset": 429,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 431,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 445,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 493,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 495,
+                "match_data": "ʟ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_o",
+            "instances": [
+              {
+                "offset": 433,
+                "match_data": "ᴏ",
+                "length": 3
+              },
+              {
+                "offset": 440,
+                "match_data": "ᴏ",
+                "length": 3
+              },
+              {
+                "offset": 479,
+                "match_data": "ᴏ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Bubble_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$bubble_e",
+            "instances": [
+              {
+                "offset": 526,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 582,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 614,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 621,
+                "match_data": "ⓔ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_l",
+            "instances": [
+              {
+                "offset": 529,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 532,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 548,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 611,
+                "match_data": "ⓛ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_o",
+            "instances": [
+              {
+                "offset": 535,
+                "match_data": "ⓞ",
+                "length": 3
+              },
+              {
+                "offset": 542,
+                "match_data": "ⓞ",
+                "length": 3
+              },
+              {
+                "offset": 592,
+                "match_data": "ⓞ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Braille",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$braille_hello",
+            "instances": [
+              {
+                "offset": 308,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$braille_hello2",
+            "instances": [
+              {
+                "offset": 308,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Runic_Elder_Futhark",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$elder_futhark_hello",
+            "instances": [
+              {
+                "offset": 182,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$elder_futhark_hello2",
+            "instances": [
+              {
+                "offset": 182,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_actual_morse_outcome.txt": {
+    "file_path": "../test_files/test_actual_morse_outcome.txt",
+    "file_name": "test_actual_morse_outcome.txt",
+    "file_size": 270,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Morse_Code",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$morse_hello",
+            "instances": [
+              {
+                "offset": 51,
+                "match_data": ".... . .-.. .-.. ---",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "identifier": "$morse_world",
+            "instances": [
+              {
+                "offset": 74,
+                "match_data": ".-- --- .-. .-.. -..",
+                "length": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_p4rs3lt0ngv3_outputs.txt": {
+    "file_path": "../test_files/test_p4rs3lt0ngv3_outputs.txt",
+    "file_name": "test_p4rs3lt0ngv3_outputs.txt",
+    "file_size": 464,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Upside_Down",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$upside_chars_a",
+            "instances": [
+              {
+                "offset": 108,
+                "match_data": "ɐ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_e",
+            "instances": [
+              {
+                "offset": 104,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 112,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 118,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 124,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 138,
+                "match_data": "ǝ",
+                "length": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Small_Caps",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$small_caps_e",
+            "instances": [
+              {
+                "offset": 329,
+                "match_data": "ᴇ",
+                "length": 3
+              },
+              {
+                "offset": 353,
+                "match_data": "ᴇ",
+                "length": 3
+              },
+              {
+                "offset": 361,
+                "match_data": "ᴇ",
+                "length": 3
+              },
+              {
+                "offset": 369,
+                "match_data": "ᴇ",
+                "length": 3
+              },
+              {
+                "offset": 379,
+                "match_data": "ᴇ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_l",
+            "instances": [
+              {
+                "offset": 332,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 334,
+                "match_data": "ʟ",
+                "length": 2
+              },
+              {
+                "offset": 346,
+                "match_data": "ʟ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$small_caps_o",
+            "instances": [
+              {
+                "offset": 336,
+                "match_data": "ᴏ",
+                "length": 3
+              },
+              {
+                "offset": 341,
+                "match_data": "ᴏ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Bubble_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$bubble_hello",
+            "instances": [
+              {
+                "offset": 391,
+                "match_data": "Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ",
+                "length": 31
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_hello2",
+            "instances": [
+              {
+                "offset": 391,
+                "match_data": "Ⓗⓔⓛⓛⓞ",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_h",
+            "instances": [
+              {
+                "offset": 391,
+                "match_data": "Ⓗ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_e",
+            "instances": [
+              {
+                "offset": 394,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 426,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 435,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 445,
+                "match_data": "ⓔ",
+                "length": 3
+              },
+              {
+                "offset": 460,
+                "match_data": "ⓔ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_l",
+            "instances": [
+              {
+                "offset": 397,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 400,
+                "match_data": "ⓛ",
+                "length": 3
+              },
+              {
+                "offset": 416,
+                "match_data": "ⓛ",
+                "length": 3
+              }
+            ]
+          },
+          {
+            "identifier": "$bubble_o",
+            "instances": [
+              {
+                "offset": 403,
+                "match_data": "ⓞ",
+                "length": 3
+              },
+              {
+                "offset": 410,
+                "match_data": "ⓞ",
+                "length": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Braille",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$braille_hello",
+            "instances": [
+              {
+                "offset": 234,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$braille_hello2",
+            "instances": [
+              {
+                "offset": 234,
+                "match_data": "⠓⠑⠇⠇⠕",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Runic_Elder_Futhark",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$elder_futhark_hello",
+            "instances": [
+              {
+                "offset": 149,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$elder_futhark_hello2",
+            "instances": [
+              {
+                "offset": 149,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_negative_comprehensive.txt": {
+    "file_path": "../test_files/test_negative_comprehensive.txt",
+    "file_name": "test_negative_comprehensive.txt",
+    "file_size": 619,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_steganography.txt": {
+    "file_path": "../test_files/test_steganography.txt",
+    "file_name": "test_steganography.txt",
+    "file_size": 940,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Emoji_Steganography",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$emoji_snake_stego",
+            "instances": [
+              {
+                "offset": 107,
+                "match_data": "🐍︎︎︎︎︎︎︎︎︎︎",
+                "length": 34
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_actual_emoji_steganography.txt": {
+    "file_path": "../test_files/test_actual_emoji_steganography.txt",
+    "file_name": "test_actual_emoji_steganography.txt",
+    "file_size": 504,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Emoji_Steganography",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$emoji_snake_stego",
+            "instances": [
+              {
+                "offset": 53,
+                "match_data": "🐍︎︎︎︎︎︎︎︎︎︎",
+                "length": 34
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_edge_cases.txt": {
+    "file_path": "../test_files/test_edge_cases.txt",
+    "file_name": "test_edge_cases.txt",
+    "file_size": 365,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_actual_leetspeak_outcome.txt": {
+    "file_path": "../test_files/test_actual_leetspeak_outcome.txt",
+    "file_name": "test_actual_leetspeak_outcome.txt",
+    "file_size": 226,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Leetspeak",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$leet_hello",
+            "instances": [
+              {
+                "offset": 50,
+                "match_data": "H3ll0",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$leet_world",
+            "instances": [
+              {
+                "offset": 56,
+                "match_data": "W0rld",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$leet_hacker",
+            "instances": [
+              {
+                "offset": 136,
+                "match_data": "H4ck3r",
+                "length": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_negative_simple.txt": {
+    "file_path": "../test_files/test_negative_simple.txt",
+    "file_name": "test_negative_simple.txt",
+    "file_size": 438,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_actual_runes.txt": {
+    "file_path": "../test_files/test_actual_runes.txt",
+    "file_name": "test_actual_runes.txt",
+    "file_size": 317,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Runic_Elder_Futhark",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$elder_futhark_hello",
+            "instances": [
+              {
+                "offset": 56,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "identifier": "$elder_futhark_hello2",
+            "instances": [
+              {
+                "offset": 56,
+                "match_data": "ᚺᛖᛚᛚᛟ",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_encoding_patterns.txt": {
+    "file_path": "../test_files/test_encoding_patterns.txt",
+    "file_name": "test_encoding_patterns.txt",
+    "file_size": 827,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Base64_Encoding",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$base64_very_long",
+            "instances": [
+              {
+                "offset": 163,
+                "match_data": "JBSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 79
+              },
+              {
+                "offset": 164,
+                "match_data": "BSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 78
+              },
+              {
+                "offset": 165,
+                "match_data": "SWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 77
+              },
+              {
+                "offset": 166,
+                "match_data": "WY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 76
+              },
+              {
+                "offset": 167,
+                "match_data": "Y3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 75
+              },
+              {
+                "offset": 168,
+                "match_data": "3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 74
+              },
+              {
+                "offset": 169,
+                "match_data": "DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 73
+              },
+              {
+                "offset": 170,
+                "match_data": "PEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 72
+              },
+              {
+                "offset": 171,
+                "match_data": "EBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 71
+              },
+              {
+                "offset": 172,
+                "match_data": "BLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 70
+              },
+              {
+                "offset": 173,
+                "match_data": "LW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 69
+              },
+              {
+                "offset": 174,
+                "match_data": "W64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 68
+              },
+              {
+                "offset": 175,
+                "match_data": "64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 67
+              },
+              {
+                "offset": 176,
+                "match_data": "4TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG==",
+                "length": 66
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Base32_Encoding",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$base32_pattern",
+            "instances": [
+              {
+                "offset": 163,
+                "match_data": "JBSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 80
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Hexadecimal",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$hex_spaced",
+            "instances": [
+              {
+                "offset": 271,
+                "match_data": "48 65 6c 6c 6f 20 57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 126
+              },
+              {
+                "offset": 274,
+                "match_data": "65 6c 6c 6f 20 57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 123
+              },
+              {
+                "offset": 277,
+                "match_data": "6c 6c 6f 20 57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 120
+              },
+              {
+                "offset": 280,
+                "match_data": "6c 6f 20 57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 117
+              },
+              {
+                "offset": 283,
+                "match_data": "6f 20 57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 114
+              },
+              {
+                "offset": 286,
+                "match_data": "20 57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 111
+              },
+              {
+                "offset": 289,
+                "match_data": "57 6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 108
+              },
+              {
+                "offset": 292,
+                "match_data": "6f 72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 105
+              },
+              {
+                "offset": 295,
+                "match_data": "72 6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 102
+              },
+              {
+                "offset": 298,
+                "match_data": "6c 64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 99
+              },
+              {
+                "offset": 301,
+                "match_data": "64 20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 96
+              },
+              {
+                "offset": 304,
+                "match_data": "20 74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 93
+              },
+              {
+                "offset": 307,
+                "match_data": "74 68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 90
+              },
+              {
+                "offset": 310,
+                "match_data": "68 69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 87
+              },
+              {
+                "offset": 313,
+                "match_data": "69 73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 84
+              },
+              {
+                "offset": 316,
+                "match_data": "73 20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 81
+              },
+              {
+                "offset": 319,
+                "match_data": "20 69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 78
+              },
+              {
+                "offset": 322,
+                "match_data": "69 73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 75
+              },
+              {
+                "offset": 325,
+                "match_data": "73 20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 72
+              },
+              {
+                "offset": 328,
+                "match_data": "20 61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 69
+              },
+              {
+                "offset": 331,
+                "match_data": "61 20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 66
+              },
+              {
+                "offset": 334,
+                "match_data": "20 74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 63
+              },
+              {
+                "offset": 337,
+                "match_data": "74 65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 60
+              },
+              {
+                "offset": 340,
+                "match_data": "65 73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 57
+              },
+              {
+                "offset": 343,
+                "match_data": "73 74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 54
+              },
+              {
+                "offset": 346,
+                "match_data": "74 20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 51
+              },
+              {
+                "offset": 349,
+                "match_data": "20 6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 48
+              },
+              {
+                "offset": 352,
+                "match_data": "6f 66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 45
+              },
+              {
+                "offset": 355,
+                "match_data": "66 20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 42
+              },
+              {
+                "offset": 358,
+                "match_data": "20 68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 39
+              },
+              {
+                "offset": 361,
+                "match_data": "68 65 78 20 65 6e 63 6f 64 69 6e 67\n",
+                "length": 36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Binary",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$binary_spaced",
+            "instances": [
+              {
+                "offset": 419,
+                "match_data": "01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100\n",
+                "length": 99
+              },
+              {
+                "offset": 428,
+                "match_data": "01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100\n",
+                "length": 90
+              },
+              {
+                "offset": 437,
+                "match_data": "01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100\n",
+                "length": 81
+              },
+              {
+                "offset": 446,
+                "match_data": "01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100\n",
+                "length": 72
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_ROT_Ciphers",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$rot13_hello",
+            "instances": [
+              {
+                "offset": 660,
+                "match_data": "Uryyb",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$rot47_pattern",
+            "instances": [
+              {
+                "offset": 163,
+                "match_data": "JBSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 80
+              },
+              {
+                "offset": 164,
+                "match_data": "BSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 79
+              },
+              {
+                "offset": 165,
+                "match_data": "SWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 78
+              },
+              {
+                "offset": 166,
+                "match_data": "WY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 77
+              },
+              {
+                "offset": 167,
+                "match_data": "Y3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 76
+              },
+              {
+                "offset": 168,
+                "match_data": "3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 75
+              },
+              {
+                "offset": 169,
+                "match_data": "DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 74
+              },
+              {
+                "offset": 170,
+                "match_data": "PEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 73
+              },
+              {
+                "offset": 171,
+                "match_data": "EBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 72
+              },
+              {
+                "offset": 172,
+                "match_data": "BLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 71
+              },
+              {
+                "offset": 173,
+                "match_data": "LW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 70
+              },
+              {
+                "offset": 174,
+                "match_data": "W64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 69
+              },
+              {
+                "offset": 175,
+                "match_data": "64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 68
+              },
+              {
+                "offset": 176,
+                "match_data": "4TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 67
+              },
+              {
+                "offset": 177,
+                "match_data": "TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 66
+              },
+              {
+                "offset": 178,
+                "match_data": "MMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 65
+              },
+              {
+                "offset": 179,
+                "match_data": "MQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 64
+              },
+              {
+                "offset": 180,
+                "match_data": "QQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 63
+              },
+              {
+                "offset": 181,
+                "match_data": "QG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 62
+              },
+              {
+                "offset": 182,
+                "match_data": "G63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 61
+              },
+              {
+                "offset": 183,
+                "match_data": "63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 60
+              },
+              {
+                "offset": 184,
+                "match_data": "3ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 59
+              },
+              {
+                "offset": 185,
+                "match_data": "ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 58
+              },
+              {
+                "offset": 186,
+                "match_data": "OOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 57
+              },
+              {
+                "offset": 187,
+                "match_data": "OBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 56
+              },
+              {
+                "offset": 188,
+                "match_data": "BZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 55
+              },
+              {
+                "offset": 189,
+                "match_data": "ZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 54
+              },
+              {
+                "offset": 190,
+                "match_data": "G63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 53
+              },
+              {
+                "offset": 191,
+                "match_data": "63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 52
+              },
+              {
+                "offset": 192,
+                "match_data": "3LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 51
+              },
+              {
+                "offset": 193,
+                "match_data": "LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 50
+              },
+              {
+                "offset": 194,
+                "match_data": "NMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 49
+              },
+              {
+                "offset": 195,
+                "match_data": "MFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 48
+              },
+              {
+                "offset": 196,
+                "match_data": "FUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 47
+              },
+              {
+                "offset": 197,
+                "match_data": "UW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 46
+              },
+              {
+                "offset": 198,
+                "match_data": "W46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 45
+              },
+              {
+                "offset": 199,
+                "match_data": "46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 44
+              },
+              {
+                "offset": 200,
+                "match_data": "6JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 43
+              },
+              {
+                "offset": 201,
+                "match_data": "JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 42
+              },
+              {
+                "offset": 202,
+                "match_data": "ANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 41
+              },
+              {
+                "offset": 203,
+                "match_data": "NJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 40
+              },
+              {
+                "offset": 204,
+                "match_data": "JUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 39
+              },
+              {
+                "offset": 205,
+                "match_data": "UWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 38
+              },
+              {
+                "offset": 206,
+                "match_data": "WILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 37
+              },
+              {
+                "offset": 207,
+                "match_data": "ILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 36
+              },
+              {
+                "offset": 208,
+                "match_data": "LTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 35
+              },
+              {
+                "offset": 209,
+                "match_data": "TOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 34
+              },
+              {
+                "offset": 210,
+                "match_data": "OMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 33
+              },
+              {
+                "offset": 211,
+                "match_data": "MFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 32
+              },
+              {
+                "offset": 212,
+                "match_data": "FXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 31
+              },
+              {
+                "offset": 213,
+                "match_data": "XGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Morse_Code",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$morse_hello",
+            "instances": [
+              {
+                "offset": 531,
+                "match_data": ".... . .-.. .-.. ---",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "identifier": "$morse_world",
+            "instances": [
+              {
+                "offset": 554,
+                "match_data": ".-- --- .-. .-.. -..",
+                "length": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Zalgo_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$combining_marks",
+            "instances": [
+              {
+                "offset": 106,
+                "match_data": "BhIHRlc3Qgb2YgYmF",
+                "length": 17
+              },
+              {
+                "offset": 107,
+                "match_data": "hIHRlc3Qgb2YgYmF",
+                "length": 16
+              },
+              {
+                "offset": 108,
+                "match_data": "IHRlc3Qgb2YgYmF",
+                "length": 15
+              },
+              {
+                "offset": 124,
+                "match_data": "ZTY0IGVuY29kaW5n",
+                "length": 16
+              },
+              {
+                "offset": 125,
+                "match_data": "TY0IGVuY29kaW5n",
+                "length": 15
+              },
+              {
+                "offset": 163,
+                "match_data": "JBSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 80
+              },
+              {
+                "offset": 164,
+                "match_data": "BSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 79
+              },
+              {
+                "offset": 165,
+                "match_data": "SWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 78
+              },
+              {
+                "offset": 166,
+                "match_data": "WY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 77
+              },
+              {
+                "offset": 167,
+                "match_data": "Y3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 76
+              },
+              {
+                "offset": 168,
+                "match_data": "3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 75
+              },
+              {
+                "offset": 169,
+                "match_data": "DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 74
+              },
+              {
+                "offset": 170,
+                "match_data": "PEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 73
+              },
+              {
+                "offset": 171,
+                "match_data": "EBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 72
+              },
+              {
+                "offset": 172,
+                "match_data": "BLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 71
+              },
+              {
+                "offset": 173,
+                "match_data": "LW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 70
+              },
+              {
+                "offset": 174,
+                "match_data": "W64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 69
+              },
+              {
+                "offset": 175,
+                "match_data": "64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 68
+              },
+              {
+                "offset": 176,
+                "match_data": "4TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 67
+              },
+              {
+                "offset": 177,
+                "match_data": "TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 66
+              },
+              {
+                "offset": 178,
+                "match_data": "MMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 65
+              },
+              {
+                "offset": 179,
+                "match_data": "MQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 64
+              },
+              {
+                "offset": 180,
+                "match_data": "QQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 63
+              },
+              {
+                "offset": 181,
+                "match_data": "QG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 62
+              },
+              {
+                "offset": 182,
+                "match_data": "G63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 61
+              },
+              {
+                "offset": 183,
+                "match_data": "63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 60
+              },
+              {
+                "offset": 184,
+                "match_data": "3ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 59
+              },
+              {
+                "offset": 185,
+                "match_data": "ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 58
+              },
+              {
+                "offset": 186,
+                "match_data": "OOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 57
+              },
+              {
+                "offset": 187,
+                "match_data": "OBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 56
+              },
+              {
+                "offset": 188,
+                "match_data": "BZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 55
+              },
+              {
+                "offset": 189,
+                "match_data": "ZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 54
+              },
+              {
+                "offset": 190,
+                "match_data": "G63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 53
+              },
+              {
+                "offset": 191,
+                "match_data": "63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 52
+              },
+              {
+                "offset": 192,
+                "match_data": "3LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 51
+              },
+              {
+                "offset": 193,
+                "match_data": "LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 50
+              },
+              {
+                "offset": 194,
+                "match_data": "NMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 49
+              },
+              {
+                "offset": 195,
+                "match_data": "MFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 48
+              },
+              {
+                "offset": 196,
+                "match_data": "FUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 47
+              },
+              {
+                "offset": 197,
+                "match_data": "UW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 46
+              },
+              {
+                "offset": 198,
+                "match_data": "W46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 45
+              },
+              {
+                "offset": 199,
+                "match_data": "46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 44
+              },
+              {
+                "offset": 200,
+                "match_data": "6JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 43
+              },
+              {
+                "offset": 201,
+                "match_data": "JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 42
+              },
+              {
+                "offset": 202,
+                "match_data": "ANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 41
+              },
+              {
+                "offset": 203,
+                "match_data": "NJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 40
+              },
+              {
+                "offset": 204,
+                "match_data": "JUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 39
+              },
+              {
+                "offset": 205,
+                "match_data": "UWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 38
+              },
+              {
+                "offset": 206,
+                "match_data": "WILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 37
+              },
+              {
+                "offset": 207,
+                "match_data": "ILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 36
+              },
+              {
+                "offset": 208,
+                "match_data": "LTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 35
+              },
+              {
+                "offset": 209,
+                "match_data": "TOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 34
+              },
+              {
+                "offset": 210,
+                "match_data": "OMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 33
+              },
+              {
+                "offset": 211,
+                "match_data": "MFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 32
+              },
+              {
+                "offset": 212,
+                "match_data": "FXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 31
+              },
+              {
+                "offset": 213,
+                "match_data": "XGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 30
+              },
+              {
+                "offset": 214,
+                "match_data": "GI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 29
+              },
+              {
+                "offset": 215,
+                "match_data": "I2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 28
+              },
+              {
+                "offset": 216,
+                "match_data": "2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 27
+              },
+              {
+                "offset": 217,
+                "match_data": "DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 26
+              },
+              {
+                "offset": 218,
+                "match_data": "JMJVWY2LTOVZGS3THOR2WG===",
+                "length": 25
+              },
+              {
+                "offset": 219,
+                "match_data": "MJVWY2LTOVZGS3THOR2WG===",
+                "length": 24
+              },
+              {
+                "offset": 220,
+                "match_data": "JVWY2LTOVZGS3THOR2WG===",
+                "length": 23
+              },
+              {
+                "offset": 221,
+                "match_data": "VWY2LTOVZGS3THOR2WG===",
+                "length": 22
+              },
+              {
+                "offset": 222,
+                "match_data": "WY2LTOVZGS3THOR2WG===",
+                "length": 21
+              },
+              {
+                "offset": 223,
+                "match_data": "Y2LTOVZGS3THOR2WG===",
+                "length": 20
+              },
+              {
+                "offset": 224,
+                "match_data": "2LTOVZGS3THOR2WG===",
+                "length": 19
+              },
+              {
+                "offset": 225,
+                "match_data": "LTOVZGS3THOR2WG===",
+                "length": 18
+              },
+              {
+                "offset": 226,
+                "match_data": "TOVZGS3THOR2WG===",
+                "length": 17
+              },
+              {
+                "offset": 227,
+                "match_data": "OVZGS3THOR2WG===",
+                "length": 16
+              },
+              {
+                "offset": 228,
+                "match_data": "VZGS3THOR2WG===",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Invisible_Characters",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$variation_selectors",
+            "instances": [
+              {
+                "offset": 163,
+                "match_data": "JBSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 80
+              },
+              {
+                "offset": 164,
+                "match_data": "BSWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 79
+              },
+              {
+                "offset": 165,
+                "match_data": "SWY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 78
+              },
+              {
+                "offset": 166,
+                "match_data": "WY3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 77
+              },
+              {
+                "offset": 167,
+                "match_data": "Y3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 76
+              },
+              {
+                "offset": 168,
+                "match_data": "3DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 75
+              },
+              {
+                "offset": 169,
+                "match_data": "DPEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 74
+              },
+              {
+                "offset": 170,
+                "match_data": "PEBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 73
+              },
+              {
+                "offset": 171,
+                "match_data": "EBLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 72
+              },
+              {
+                "offset": 172,
+                "match_data": "BLW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 71
+              },
+              {
+                "offset": 173,
+                "match_data": "LW64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 70
+              },
+              {
+                "offset": 174,
+                "match_data": "W64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 69
+              },
+              {
+                "offset": 175,
+                "match_data": "64TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 68
+              },
+              {
+                "offset": 176,
+                "match_data": "4TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 67
+              },
+              {
+                "offset": 177,
+                "match_data": "TMMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 66
+              },
+              {
+                "offset": 178,
+                "match_data": "MMQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 65
+              },
+              {
+                "offset": 179,
+                "match_data": "MQQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 64
+              },
+              {
+                "offset": 180,
+                "match_data": "QQG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 63
+              },
+              {
+                "offset": 181,
+                "match_data": "QG63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 62
+              },
+              {
+                "offset": 182,
+                "match_data": "G63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 61
+              },
+              {
+                "offset": 183,
+                "match_data": "63ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 60
+              },
+              {
+                "offset": 184,
+                "match_data": "3ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 59
+              },
+              {
+                "offset": 185,
+                "match_data": "ZOOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 58
+              },
+              {
+                "offset": 186,
+                "match_data": "OOBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 57
+              },
+              {
+                "offset": 187,
+                "match_data": "OBZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 56
+              },
+              {
+                "offset": 188,
+                "match_data": "BZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 55
+              },
+              {
+                "offset": 189,
+                "match_data": "ZG63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 54
+              },
+              {
+                "offset": 190,
+                "match_data": "G63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 53
+              },
+              {
+                "offset": 191,
+                "match_data": "63LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 52
+              },
+              {
+                "offset": 192,
+                "match_data": "3LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 51
+              },
+              {
+                "offset": 193,
+                "match_data": "LNMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 50
+              },
+              {
+                "offset": 194,
+                "match_data": "NMFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 49
+              },
+              {
+                "offset": 195,
+                "match_data": "MFUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 48
+              },
+              {
+                "offset": 196,
+                "match_data": "FUW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 47
+              },
+              {
+                "offset": 197,
+                "match_data": "UW46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 46
+              },
+              {
+                "offset": 198,
+                "match_data": "W46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 45
+              },
+              {
+                "offset": 199,
+                "match_data": "46JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 44
+              },
+              {
+                "offset": 200,
+                "match_data": "6JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 43
+              },
+              {
+                "offset": 201,
+                "match_data": "JANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 42
+              },
+              {
+                "offset": 202,
+                "match_data": "ANJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 41
+              },
+              {
+                "offset": 203,
+                "match_data": "NJUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 40
+              },
+              {
+                "offset": 204,
+                "match_data": "JUWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 39
+              },
+              {
+                "offset": 205,
+                "match_data": "UWILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 38
+              },
+              {
+                "offset": 206,
+                "match_data": "WILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 37
+              },
+              {
+                "offset": 207,
+                "match_data": "ILTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 36
+              },
+              {
+                "offset": 208,
+                "match_data": "LTOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 35
+              },
+              {
+                "offset": 209,
+                "match_data": "TOMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 34
+              },
+              {
+                "offset": 210,
+                "match_data": "OMFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 33
+              },
+              {
+                "offset": 211,
+                "match_data": "MFXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 32
+              },
+              {
+                "offset": 212,
+                "match_data": "FXGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 31
+              },
+              {
+                "offset": 213,
+                "match_data": "XGI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 30
+              },
+              {
+                "offset": 214,
+                "match_data": "GI2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 29
+              },
+              {
+                "offset": 215,
+                "match_data": "I2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 28
+              },
+              {
+                "offset": 216,
+                "match_data": "2DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 27
+              },
+              {
+                "offset": 217,
+                "match_data": "DJMJVWY2LTOVZGS3THOR2WG===",
+                "length": 26
+              },
+              {
+                "offset": 218,
+                "match_data": "JMJVWY2LTOVZGS3THOR2WG===",
+                "length": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Multiple_Obfuscation",
+        "tags": [],
+        "strings": []
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/normal_text_sample1.txt": {
+    "file_path": "../test_files/normal_text_sample1.txt",
+    "file_name": "normal_text_sample1.txt",
+    "file_size": 971,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_actual_upside_down.txt": {
+    "file_path": "../test_files/test_actual_upside_down.txt",
+    "file_name": "test_actual_upside_down.txt",
+    "file_size": 289,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Upside_Down",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$upside_chars_a",
+            "instances": [
+              {
+                "offset": 121,
+                "match_data": "ɐ",
+                "length": 2
+              },
+              {
+                "offset": 142,
+                "match_data": "ɐ",
+                "length": 2
+              },
+              {
+                "offset": 190,
+                "match_data": "ɐ",
+                "length": 2
+              },
+              {
+                "offset": 195,
+                "match_data": "ɐ",
+                "length": 2
+              },
+              {
+                "offset": 203,
+                "match_data": "ɐ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_e",
+            "instances": [
+              {
+                "offset": 63,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 101,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 106,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 117,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 125,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 132,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 138,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 185,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 198,
+                "match_data": "ǝ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_h",
+            "instances": [
+              {
+                "offset": 108,
+                "match_data": "ɥ",
+                "length": 2
+              },
+              {
+                "offset": 154,
+                "match_data": "ɥ",
+                "length": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_false_positive_check.txt": {
+    "file_path": "../test_files/test_false_positive_check.txt",
+    "file_name": "test_false_positive_check.txt",
+    "file_size": 558,
+    "matches": [],
+    "detected": false
+  },
+  "../test_files/test_mixed_obfuscation_outcome.txt": {
+    "file_path": "../test_files/test_mixed_obfuscation_outcome.txt",
+    "file_name": "test_mixed_obfuscation_outcome.txt",
+    "file_size": 290,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Upside_Down",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$upside_chars_a",
+            "instances": [
+              {
+                "offset": 89,
+                "match_data": "ɐ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_e",
+            "instances": [
+              {
+                "offset": 69,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 74,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 85,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 93,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 100,
+                "match_data": "ǝ",
+                "length": 2
+              },
+              {
+                "offset": 106,
+                "match_data": "ǝ",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "identifier": "$upside_chars_h",
+            "instances": [
+              {
+                "offset": 76,
+                "match_data": "ɥ",
+                "length": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/normal_config.json": {
+    "file_path": "../test_files/normal_config.json",
+    "file_name": "normal_config.json",
+    "file_size": 1154,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Zalgo_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$combining_marks",
+            "instances": [
+              {
+                "offset": 765,
+                "match_data": "user_registration",
+                "length": 17
+              },
+              {
+                "offset": 766,
+                "match_data": "ser_registration",
+                "length": 16
+              },
+              {
+                "offset": 767,
+                "match_data": "er_registration",
+                "length": 15
+              },
+              {
+                "offset": 796,
+                "match_data": "email_notifications",
+                "length": 19
+              },
+              {
+                "offset": 797,
+                "match_data": "mail_notifications",
+                "length": 18
+              },
+              {
+                "offset": 798,
+                "match_data": "ail_notifications",
+                "length": 17
+              },
+              {
+                "offset": 799,
+                "match_data": "il_notifications",
+                "length": 16
+              },
+              {
+                "offset": 800,
+                "match_data": "l_notifications",
+                "length": 15
+              },
+              {
+                "offset": 943,
+                "match_data": "session_timeout",
+                "length": 15
+              },
+              {
+                "offset": 1022,
+                "match_data": "require_uppercase",
+                "length": 17
+              },
+              {
+                "offset": 1023,
+                "match_data": "equire_uppercase",
+                "length": 16
+              },
+              {
+                "offset": 1024,
+                "match_data": "quire_uppercase",
+                "length": 15
+              },
+              {
+                "offset": 1088,
+                "match_data": "require_numbers",
+                "length": 15
+              },
+              {
+                "offset": 1119,
+                "match_data": "require_special",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_visual_formatting.txt": {
+    "file_path": "../test_files/test_visual_formatting.txt",
+    "file_name": "test_visual_formatting.txt",
+    "file_size": 840,
+    "matches": [
+      {
+        "rule": "P4RS3LT0NGV3_Zalgo_Text",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$combining_marks",
+            "instances": [
+              {
+                "offset": 336,
+                "match_data": "[31mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 39
+              },
+              {
+                "offset": 337,
+                "match_data": "31mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 38
+              },
+              {
+                "offset": 338,
+                "match_data": "1mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 37
+              },
+              {
+                "offset": 339,
+                "match_data": "mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 36
+              },
+              {
+                "offset": 340,
+                "match_data": "R[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 35
+              },
+              {
+                "offset": 341,
+                "match_data": "[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 34
+              },
+              {
+                "offset": 342,
+                "match_data": "32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 33
+              },
+              {
+                "offset": 343,
+                "match_data": "2mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 32
+              },
+              {
+                "offset": 344,
+                "match_data": "mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 31
+              },
+              {
+                "offset": 345,
+                "match_data": "A[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 30
+              },
+              {
+                "offset": 346,
+                "match_data": "[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 29
+              },
+              {
+                "offset": 347,
+                "match_data": "33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 28
+              },
+              {
+                "offset": 348,
+                "match_data": "3mI[34mN[35mB[36mO[31mW[32m",
+                "length": 27
+              },
+              {
+                "offset": 349,
+                "match_data": "mI[34mN[35mB[36mO[31mW[32m",
+                "length": 26
+              },
+              {
+                "offset": 350,
+                "match_data": "I[34mN[35mB[36mO[31mW[32m",
+                "length": 25
+              },
+              {
+                "offset": 351,
+                "match_data": "[34mN[35mB[36mO[31mW[32m",
+                "length": 24
+              },
+              {
+                "offset": 352,
+                "match_data": "34mN[35mB[36mO[31mW[32m",
+                "length": 23
+              },
+              {
+                "offset": 353,
+                "match_data": "4mN[35mB[36mO[31mW[32m",
+                "length": 22
+              },
+              {
+                "offset": 354,
+                "match_data": "mN[35mB[36mO[31mW[32m",
+                "length": 21
+              },
+              {
+                "offset": 355,
+                "match_data": "N[35mB[36mO[31mW[32m",
+                "length": 20
+              },
+              {
+                "offset": 356,
+                "match_data": "[35mB[36mO[31mW[32m",
+                "length": 19
+              },
+              {
+                "offset": 357,
+                "match_data": "35mB[36mO[31mW[32m",
+                "length": 18
+              },
+              {
+                "offset": 358,
+                "match_data": "5mB[36mO[31mW[32m",
+                "length": 17
+              },
+              {
+                "offset": 359,
+                "match_data": "mB[36mO[31mW[32m",
+                "length": 16
+              },
+              {
+                "offset": 360,
+                "match_data": "B[36mO[31mW[32m",
+                "length": 15
+              },
+              {
+                "offset": 376,
+                "match_data": "[33mT[34mE[35mX[36mT[0m",
+                "length": 23
+              },
+              {
+                "offset": 377,
+                "match_data": "33mT[34mE[35mX[36mT[0m",
+                "length": 22
+              },
+              {
+                "offset": 378,
+                "match_data": "3mT[34mE[35mX[36mT[0m",
+                "length": 21
+              },
+              {
+                "offset": 379,
+                "match_data": "mT[34mE[35mX[36mT[0m",
+                "length": 20
+              },
+              {
+                "offset": 380,
+                "match_data": "T[34mE[35mX[36mT[0m",
+                "length": 19
+              },
+              {
+                "offset": 381,
+                "match_data": "[34mE[35mX[36mT[0m",
+                "length": 18
+              },
+              {
+                "offset": 382,
+                "match_data": "34mE[35mX[36mT[0m",
+                "length": 17
+              },
+              {
+                "offset": 383,
+                "match_data": "4mE[35mX[36mT[0m",
+                "length": 16
+              },
+              {
+                "offset": 384,
+                "match_data": "mE[35mX[36mT[0m",
+                "length": 15
+              },
+              {
+                "offset": 400,
+                "match_data": "[31mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 44
+              },
+              {
+                "offset": 401,
+                "match_data": "31mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 43
+              },
+              {
+                "offset": 402,
+                "match_data": "1mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 42
+              },
+              {
+                "offset": 403,
+                "match_data": "mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 41
+              },
+              {
+                "offset": 404,
+                "match_data": "C[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 40
+              },
+              {
+                "offset": 405,
+                "match_data": "[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 39
+              },
+              {
+                "offset": 406,
+                "match_data": "32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 38
+              },
+              {
+                "offset": 407,
+                "match_data": "2mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 37
+              },
+              {
+                "offset": 408,
+                "match_data": "mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 36
+              },
+              {
+                "offset": 409,
+                "match_data": "o[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 35
+              },
+              {
+                "offset": 410,
+                "match_data": "[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 34
+              },
+              {
+                "offset": 411,
+                "match_data": "33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 33
+              },
+              {
+                "offset": 412,
+                "match_data": "3ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 32
+              },
+              {
+                "offset": 413,
+                "match_data": "ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 31
+              },
+              {
+                "offset": 414,
+                "match_data": "l[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 30
+              },
+              {
+                "offset": 415,
+                "match_data": "[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 29
+              },
+              {
+                "offset": 416,
+                "match_data": "34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 28
+              },
+              {
+                "offset": 417,
+                "match_data": "4mo[35mr[36mf[31mu[32ml[33m",
+                "length": 27
+              },
+              {
+                "offset": 418,
+                "match_data": "mo[35mr[36mf[31mu[32ml[33m",
+                "length": 26
+              },
+              {
+                "offset": 419,
+                "match_data": "o[35mr[36mf[31mu[32ml[33m",
+                "length": 25
+              },
+              {
+                "offset": 420,
+                "match_data": "[35mr[36mf[31mu[32ml[33m",
+                "length": 24
+              },
+              {
+                "offset": 421,
+                "match_data": "35mr[36mf[31mu[32ml[33m",
+                "length": 23
+              },
+              {
+                "offset": 422,
+                "match_data": "5mr[36mf[31mu[32ml[33m",
+                "length": 22
+              },
+              {
+                "offset": 423,
+                "match_data": "mr[36mf[31mu[32ml[33m",
+                "length": 21
+              },
+              {
+                "offset": 424,
+                "match_data": "r[36mf[31mu[32ml[33m",
+                "length": 20
+              },
+              {
+                "offset": 425,
+                "match_data": "[36mf[31mu[32ml[33m",
+                "length": 19
+              },
+              {
+                "offset": 426,
+                "match_data": "36mf[31mu[32ml[33m",
+                "length": 18
+              },
+              {
+                "offset": 427,
+                "match_data": "6mf[31mu[32ml[33m",
+                "length": 17
+              },
+              {
+                "offset": 428,
+                "match_data": "mf[31mu[32ml[33m",
+                "length": 16
+              },
+              {
+                "offset": 429,
+                "match_data": "f[31mu[32ml[33m",
+                "length": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Invisible_Characters",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$variation_selectors",
+            "instances": [
+              {
+                "offset": 336,
+                "match_data": "[31mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 39
+              },
+              {
+                "offset": 337,
+                "match_data": "31mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 38
+              },
+              {
+                "offset": 338,
+                "match_data": "1mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 37
+              },
+              {
+                "offset": 339,
+                "match_data": "mR[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 36
+              },
+              {
+                "offset": 340,
+                "match_data": "R[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 35
+              },
+              {
+                "offset": 341,
+                "match_data": "[32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 34
+              },
+              {
+                "offset": 342,
+                "match_data": "32mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 33
+              },
+              {
+                "offset": 343,
+                "match_data": "2mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 32
+              },
+              {
+                "offset": 344,
+                "match_data": "mA[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 31
+              },
+              {
+                "offset": 345,
+                "match_data": "A[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 30
+              },
+              {
+                "offset": 346,
+                "match_data": "[33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 29
+              },
+              {
+                "offset": 347,
+                "match_data": "33mI[34mN[35mB[36mO[31mW[32m",
+                "length": 28
+              },
+              {
+                "offset": 348,
+                "match_data": "3mI[34mN[35mB[36mO[31mW[32m",
+                "length": 27
+              },
+              {
+                "offset": 349,
+                "match_data": "mI[34mN[35mB[36mO[31mW[32m",
+                "length": 26
+              },
+              {
+                "offset": 350,
+                "match_data": "I[34mN[35mB[36mO[31mW[32m",
+                "length": 25
+              },
+              {
+                "offset": 400,
+                "match_data": "[31mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 44
+              },
+              {
+                "offset": 401,
+                "match_data": "31mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 43
+              },
+              {
+                "offset": 402,
+                "match_data": "1mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 42
+              },
+              {
+                "offset": 403,
+                "match_data": "mC[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 41
+              },
+              {
+                "offset": 404,
+                "match_data": "C[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 40
+              },
+              {
+                "offset": 405,
+                "match_data": "[32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 39
+              },
+              {
+                "offset": 406,
+                "match_data": "32mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 38
+              },
+              {
+                "offset": 407,
+                "match_data": "2mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 37
+              },
+              {
+                "offset": 408,
+                "match_data": "mo[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 36
+              },
+              {
+                "offset": 409,
+                "match_data": "o[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 35
+              },
+              {
+                "offset": 410,
+                "match_data": "[33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 34
+              },
+              {
+                "offset": 411,
+                "match_data": "33ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 33
+              },
+              {
+                "offset": 412,
+                "match_data": "3ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 32
+              },
+              {
+                "offset": 413,
+                "match_data": "ml[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 31
+              },
+              {
+                "offset": 414,
+                "match_data": "l[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 30
+              },
+              {
+                "offset": 415,
+                "match_data": "[34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 29
+              },
+              {
+                "offset": 416,
+                "match_data": "34mo[35mr[36mf[31mu[32ml[33m",
+                "length": 28
+              },
+              {
+                "offset": 417,
+                "match_data": "4mo[35mr[36mf[31mu[32ml[33m",
+                "length": 27
+              },
+              {
+                "offset": 418,
+                "match_data": "mo[35mr[36mf[31mu[32ml[33m",
+                "length": 26
+              },
+              {
+                "offset": 419,
+                "match_data": "o[35mr[36mf[31mu[32ml[33m",
+                "length": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_NATO_Phonetic",
+        "tags": [],
+        "strings": [
+          {
+            "identifier": "$nato_alpha",
+            "instances": [
+              {
+                "offset": 597,
+                "match_data": "Alpha",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_bravo",
+            "instances": [
+              {
+                "offset": 603,
+                "match_data": "Bravo",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_charlie",
+            "instances": [
+              {
+                "offset": 609,
+                "match_data": "Charlie",
+                "length": 7
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_delta",
+            "instances": [
+              {
+                "offset": 617,
+                "match_data": "Delta",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_echo",
+            "instances": [
+              {
+                "offset": 623,
+                "match_data": "Echo",
+                "length": 4
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_foxtrot",
+            "instances": [
+              {
+                "offset": 628,
+                "match_data": "Foxtrot",
+                "length": 7
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_golf",
+            "instances": [
+              {
+                "offset": 636,
+                "match_data": "Golf",
+                "length": 4
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_hotel",
+            "instances": [
+              {
+                "offset": 641,
+                "match_data": "Hotel",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_india",
+            "instances": [
+              {
+                "offset": 647,
+                "match_data": "India",
+                "length": 5
+              }
+            ]
+          },
+          {
+            "identifier": "$nato_juliet",
+            "instances": [
+              {
+                "offset": 653,
+                "match_data": "Juliet",
+                "length": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": "P4RS3LT0NGV3_Master_Detection",
+        "tags": [],
+        "strings": []
+      }
+    ],
+    "detected": true
+  },
+  "../test_files/test_actual_zalgo.txt": {
+    "file_path": "../test_files/test_actual_zalgo.txt",
+    "file_name": "test_actual_zalgo.txt",
+    "file_size": 263,
+    "matches": [],
+    "detected": false
+  }
+}

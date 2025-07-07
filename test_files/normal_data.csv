@@ -1,0 +1,16 @@
+name,age,city,country,job_title,salary,department
+John Smith,28,New York,USA,Software Engineer,85000,Engineering
+Sarah Johnson,32,London,UK,Product Manager,92000,Product
+Michael Chen,25,Toronto,Canada,Data Analyst,68000,Analytics
+Emily Davis,29,Sydney,Australia,UX Designer,75000,Design
+David Wilson,35,Berlin,Germany,DevOps Engineer,88000,Engineering
+Lisa Martinez,31,Madrid,Spain,Marketing Manager,70000,Marketing
+Alex Thompson,27,Paris,France,Backend Developer,82000,Engineering
+Rachel Brown,30,Tokyo,Japan,Frontend Developer,79000,Engineering
+James Garcia,33,Mexico City,Mexico,Sales Manager,95000,Sales
+Anna Rodriguez,26,São Paulo,Brazil,QA Engineer,65000,Engineering
+Kevin Lee,34,Seoul,South Korea,Data Scientist,98000,Analytics
+Jessica Wang,28,Beijing,China,Business Analyst,72000,Analytics
+Robert Taylor,29,Dublin,Ireland,Cloud Architect,105000,Engineering
+Maria Gonzalez,32,Barcelona,Spain,HR Manager,68000,Human Resources
+Thomas Anderson,27,Stockholm,Sweden,Security Engineer,90000,Engineering

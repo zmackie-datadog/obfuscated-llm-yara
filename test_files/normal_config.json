@@ -1,0 +1,56 @@
+{
+  "application": {
+    "name": "WebApp",
+    "version": "1.2.3",
+    "environment": "production",
+    "debug": false
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "webapp_db",
+    "username": "webapp_user",
+    "ssl": true,
+    "pool_size": 10,
+    "timeout": 30000
+  },
+  "cache": {
+    "enabled": true,
+    "type": "redis",
+    "host": "cache.example.com",
+    "port": 6379,
+    "ttl": 3600
+  },
+  "logging": {
+    "level": "info",
+    "format": "json",
+    "file": "/var/log/webapp.log",
+    "max_size": "100MB",
+    "rotate": true
+  },
+  "api": {
+    "rate_limit": 1000,
+    "timeout": 5000,
+    "cors": {
+      "enabled": true,
+      "origins": ["https://example.com", "https://app.example.com"]
+    }
+  },
+  "features": {
+    "user_registration": true,
+    "email_notifications": true,
+    "analytics": false,
+    "beta_features": false
+  },
+  "security": {
+    "jwt_secret": "your-secret-key-here",
+    "session_timeout": 1800,
+    "password_policy": {
+      "min_length": 8,
+      "require_uppercase": true,
+      "require_lowercase": true,
+      "require_numbers": true,
+      "require_special": false
+    }
+  }
+}
